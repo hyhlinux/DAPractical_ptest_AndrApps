@@ -1,0 +1,708 @@
+2017-04-11 17:22:04.043 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-11 17:22:04.057 [S][3]: Old logs (3) successfully loaded...
+2017-04-11 17:22:04.065 [S][4]: loaded logs
+2017-04-11 17:22:04.067 [S][5]: Service Load Settings: 
+2017-04-11 17:22:04.162 [S][6]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-11 17:22:04.163 [S][7]: loaded settings
+2017-04-11 17:22:04.163 [S][8]: pushManager.startRegistration();
+2017-04-11 17:22:04.165 [S][9]: registered
+2017-04-11 17:22:04.167 [S][10]: service start after
+2017-04-11 17:22:04.173 [S][11]: GPS-GG start
+2017-04-11 17:22:04.202 [S][12]: GPS-GG Google API Client built
+2017-04-11 17:22:04.213 [S][13]: Service Event: onCreate
+2017-04-11 17:22:05.658 [A][14]: onServiceConnected: ComponentInfo{de.pappert.pp.lebensretter/de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService}
+2017-04-11 17:22:05.660 [A][15]: RnApp::AdditionServiceConnection calling wrong Activity
+2017-04-11 17:22:05.663 [A][16]: **** RnApp::AdditionServiceConnection: Startet #####
+2017-04-11 17:22:05.665 [A][17]: onServiceConnected: ComponentInfo{de.pappert.pp.lebensretter/de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService}
+2017-04-11 17:22:05.670 [A][18]: RnApp::AdditionServiceConnection calling wrong Activity
+2017-04-11 17:22:05.882 [A][19]: **** LockScreen::onCreate: Backgroundworker Test in onStart
+2017-04-11 17:22:05.883 [A][20]: **** LockScreen::checkInput: RnApp.backgroundService != null
+2017-04-11 17:22:06.028 [A][21]: goto settings
+2017-04-11 17:22:06.042 [A][22]: onTabUnselected: 0
+2017-04-11 17:22:06.046 [A][23]: On tab select: 2
+2017-04-11 17:22:06.080 [A][24]: initForm
+2017-04-11 17:22:06.088 [A][25]: settingsToForm: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-11 17:22:06.095 [A][26]: Disable Tabs {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""} auth: false online true
+2017-04-11 17:22:06.225 [A][27]: ShowAlert: Die Nutzung der Mobile Retter-APP setzt die Registrierung, sowie eine vorherige Unterweisung voraus, bei der die Vergabe der erforderlichen Zugangsdaten erfolgt.
+ Details unter: www.mobile-retter.de
+2017-04-11 17:22:06.267 [A][28]: OperationTabbarActivity onResume
+2017-04-11 17:22:07.742 [A][29]: disable Tabs threaded...
+2017-04-11 17:22:07.788 [A][30]: initForm
+2017-04-11 17:22:07.798 [A][31]: settingsToForm: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-11 17:22:07.802 [A][32]: Disable Tabs {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""} auth: false online true
+2017-04-11 17:22:07.851 [A][33]: onTabUnselected: 2
+2017-04-11 17:22:07.854 [A][34]: onTabUnselected2: 2
+2017-04-11 17:22:07.855 [A][35]: On tab select: 0
+2017-04-11 17:22:07.859 [A][36]: On tab select2: 0
+2017-04-11 17:22:07.862 [A][37]: On tab select: 0
+2017-04-11 17:22:07.863 [A][38]: On tab select2: 0
+2017-04-11 17:22:09.211 [S][39]: startRegistration
+2017-04-11 17:22:09.351 [A][40]: disable Tabs threaded...
+2017-04-11 17:22:10.911 [S][41]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-11 17:22:10.938 [S][42]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-11 17:22:10.941 [S][43]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-11 17:22:10.942 [S][44]: API ignore request and (no valid auth or ignoreauth)
+2017-04-11 17:22:10.943 [S][45]: Send register
+2017-04-11 17:22:11.289 [S][46]: Push onReceive/REGISTRATION
+2017-04-11 17:22:11.292 [S][47]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-11 17:22:11.292 [S][48]: context
+2017-04-11 17:22:11.293 [S][49]: C2DM egistration ID received.
+2017-04-11 17:22:11.294 [S][50]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-11 17:22:11.323 [S][51]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-11 17:22:11.325 [S][52]: API ignore request and (no valid auth or ignoreauth)
+2017-04-11 17:22:19.535 [S][53]: GPS-GG start
+2017-04-11 17:22:19.547 [S][54]: GPS-GG Google API Client built
+2017-04-11 17:22:22.767 [A][55]: OperationTabbarActivity onResume
+2017-04-11 17:22:22.771 [A][56]: RnApp: Onappfocus Action: 
+2017-04-11 17:22:22.784 [A][57]: RnApp: onResume: loaded settings
+2017-04-11 17:22:22.790 [S][58]: No action found ""
+2017-04-11 17:22:31.571 [A][59]: onTabReselected: 0
+2017-04-11 17:22:31.572 [A][60]: onTabReselected2: 0
+2017-04-11 17:22:38.789 [A][61]: java.lang.ArrayIndexOutOfBoundsException: length=12; index=-1
+	at java.util.ArrayList.get(ArrayList.java:310)
+	at de.pappert.pp.lebensretter.Views.StartTabs.StartSettingsFragment$4.onClick(StartSettingsFragment.java:486)
+	at com.android.internal.app.AlertController$ButtonHandler.handleMessage(AlertController.java:163)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-11 17:22:39.959 [S][62]: BatteryLevel: 100.0% 
+2017-04-11 17:22:39.960 [S][63]: Send logs: 63
+2017-04-11 17:22:39.961 [S][64]: #2.5
+2017-04-11 17:22:39.964 [S][65]: #4
+2017-04-11 17:22:39.967 [S][66]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-11 17:22:39.967 [S][67]: API ignore request and (no valid auth or ignoreauth)
+2017-04-11 17:22:39.968 [S][68]: BufferedLogService logSend
+2017-04-11 17:22:55.181 [A][69]: initForm
+2017-04-11 17:22:55.192 [A][70]: settingsToForm: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-11 17:22:55.210 [A][71]: Disable Tabs {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""} auth: false online true
+2017-04-11 17:22:55.271 [A][72]: OperationTabbarActivity onResume
+2017-04-11 17:22:55.290 [A][73]: RnApp: Onappfocus Action: 
+2017-04-11 17:22:55.297 [A][74]: RnApp: onResume: loaded settings
+2017-04-11 17:22:55.302 [S][75]: No action found ""
+2017-04-11 17:22:56.772 [A][76]: disable Tabs threaded...
+2017-04-11 17:22:58.910 [A][77]: MyAppCompatActivity onAppForegroundChange: false tmp: false
+2017-04-11 17:22:58.911 [S][78]: locationGpsPermanentStop
+2017-04-11 17:22:58.912 [S][79]: GPS-P stop
+2017-04-11 17:23:05.517 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-11 17:23:05.523 [S][106]: Old logs (106) successfully loaded...
+2017-04-11 17:23:05.523 [S][107]: loaded logs
+2017-04-11 17:23:05.524 [S][108]: Service Load Settings: 
+2017-04-11 17:23:05.552 [S][109]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-11 17:23:05.553 [S][110]: loaded settings
+2017-04-11 17:23:05.553 [S][111]: pushManager.startRegistration();
+2017-04-11 17:23:05.554 [S][112]: registered
+2017-04-11 17:23:05.557 [S][113]: service start after
+2017-04-11 17:23:05.566 [S][114]: GPS-GG start
+2017-04-11 17:23:05.579 [S][115]: GPS-GG Google API Client built
+2017-04-11 17:23:05.588 [S][116]: Service Event: onCreate
+2017-04-11 17:23:05.594 [S][117]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-11 17:23:05.669 [S][118]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-11 17:23:06.066 [S][119]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-11 17:23:06.067 [S][120]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-11 17:23:06.067 [S][121]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-11 17:23:06.068 [S][122]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-11 17:23:06.068 [S][123]: GPS-GG: Pos-Diff Action: 
+2017-04-11 17:23:06.068 [S][124]: No action found ""
+2017-04-11 17:23:06.069 [S][125]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-11 17:23:06.069 [S][126]: No action found ""
+2017-04-11 17:23:10.600 [S][127]: startRegistration
+2017-04-11 17:23:10.604 [S][128]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-11 17:23:10.620 [S][129]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-11 17:23:10.671 [S][130]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-11 17:23:10.677 [S][131]: API ignore request and (no valid auth or ignoreauth)
+2017-04-11 17:23:10.682 [S][132]: Send register
+2017-04-11 17:23:11.059 [S][133]: Push onReceive/REGISTRATION
+2017-04-11 17:23:11.062 [S][134]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-11 17:23:11.064 [S][135]: context
+2017-04-11 17:23:11.064 [S][136]: C2DM egistration ID received.
+2017-04-11 17:23:11.066 [S][137]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-11 17:23:11.068 [S][138]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-11 17:23:11.069 [S][139]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 07:38:49.875 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-13 07:38:50.179 [S][156]: Old logs (156) successfully loaded...
+2017-04-13 07:38:50.205 [S][157]: loaded logs
+2017-04-13 07:38:50.206 [S][158]: Service Load Settings: 
+2017-04-13 07:38:51.338 [S][159]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-13 07:38:51.338 [S][160]: loaded settings
+2017-04-13 07:38:51.339 [S][161]: pushManager.startRegistration();
+2017-04-13 07:38:51.365 [S][162]: registered
+2017-04-13 07:38:51.368 [S][163]: service start after
+2017-04-13 07:38:51.387 [S][164]: GPS-GG start
+2017-04-13 07:38:52.653 [S][165]: GPS-GG Google API Client built
+2017-04-13 07:38:52.715 [S][166]: Service Event: onCreate
+2017-04-13 07:38:52.736 [S][167]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-13 07:38:54.011 [S][168]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 07:38:56.401 [S][169]: startRegistration
+2017-04-13 07:38:57.149 [S][170]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 07:39:05.750 [S][171]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 07:39:06.041 [S][172]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 07:39:06.058 [S][173]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 07:39:06.061 [S][174]: Send register
+2017-04-13 07:39:07.589 [S][175]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-13 07:39:07.935 [S][176]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-13 07:39:07.935 [S][177]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-13 07:39:07.935 [S][178]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-13 07:39:07.936 [S][179]: GPS-GG: Pos-Diff Action: 
+2017-04-13 07:39:07.936 [S][180]: No action found ""
+2017-04-13 07:39:07.937 [S][181]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-13 07:39:07.937 [S][182]: No action found ""
+2017-04-13 07:39:19.593 [S][183]: Push onReceive/REGISTRATION
+2017-04-13 07:39:19.595 [S][184]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 07:39:19.595 [S][185]: context
+2017-04-13 07:39:19.596 [S][186]: C2DM egistration ID received.
+2017-04-13 07:39:19.597 [S][187]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-13 07:39:19.606 [S][188]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 07:39:19.606 [S][189]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 08:40:28.435 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-13 08:40:28.484 [S][206]: Old logs (206) successfully loaded...
+2017-04-13 08:40:28.493 [S][207]: loaded logs
+2017-04-13 08:40:28.493 [S][208]: Service Load Settings: 
+2017-04-13 08:40:28.562 [S][209]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-13 08:40:28.562 [S][210]: loaded settings
+2017-04-13 08:40:28.563 [S][211]: pushManager.startRegistration();
+2017-04-13 08:40:28.567 [S][212]: registered
+2017-04-13 08:40:28.569 [S][213]: service start after
+2017-04-13 08:40:28.580 [S][214]: GPS-GG start
+2017-04-13 08:40:28.670 [S][215]: GPS-GG Google API Client built
+2017-04-13 08:40:28.703 [S][216]: Service Event: onCreate
+2017-04-13 08:40:28.711 [S][217]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-13 08:40:28.921 [S][218]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 08:40:33.607 [S][219]: startRegistration
+2017-04-13 08:40:34.233 [S][220]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 08:40:42.733 [S][221]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 08:40:43.189 [S][222]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 08:40:43.552 [S][223]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 08:40:43.552 [S][224]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 08:40:43.553 [S][225]: Send register
+2017-04-13 08:40:55.283 [S][226]: Push onReceive/REGISTRATION
+2017-04-13 08:40:55.285 [S][227]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 08:40:55.287 [S][228]: context
+2017-04-13 08:40:55.287 [S][229]: C2DM egistration ID received.
+2017-04-13 08:40:55.288 [S][230]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-13 08:40:55.329 [S][231]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 08:40:55.329 [S][232]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 09:54:33.291 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-13 09:54:33.339 [S][248]: Old logs (248) successfully loaded...
+2017-04-13 09:54:33.356 [S][249]: loaded logs
+2017-04-13 09:54:33.357 [S][250]: Service Load Settings: 
+2017-04-13 09:54:33.396 [S][251]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-13 09:54:33.397 [S][252]: loaded settings
+2017-04-13 09:54:33.397 [S][253]: pushManager.startRegistration();
+2017-04-13 09:54:33.402 [S][254]: registered
+2017-04-13 09:54:33.403 [S][255]: service start after
+2017-04-13 09:54:33.413 [S][256]: GPS-GG start
+2017-04-13 09:54:33.496 [S][257]: GPS-GG Google API Client built
+2017-04-13 09:54:33.504 [S][258]: Service Event: onCreate
+2017-04-13 09:54:33.515 [S][259]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-13 09:54:33.615 [S][260]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 09:54:38.440 [S][261]: startRegistration
+2017-04-13 09:54:44.075 [S][262]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 09:54:44.964 [S][263]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 09:54:45.344 [S][264]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 09:54:45.345 [S][265]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 09:54:45.347 [S][266]: Send register
+2017-04-13 09:54:45.350 [S][267]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-13 09:54:45.350 [S][268]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-13 09:54:45.351 [S][269]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-13 09:54:45.362 [S][270]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-13 09:54:45.362 [S][271]: GPS-GG: Pos-Diff Action: 
+2017-04-13 09:54:45.364 [S][272]: No action found ""
+2017-04-13 09:54:45.364 [S][273]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-13 09:54:45.368 [S][274]: No action found ""
+2017-04-13 09:55:00.074 [S][275]: Push onReceive/REGISTRATION
+2017-04-13 09:55:00.076 [S][276]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 09:55:00.077 [S][277]: context
+2017-04-13 09:55:00.077 [S][278]: C2DM egistration ID received.
+2017-04-13 09:55:00.078 [S][279]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-13 09:55:00.116 [S][280]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 09:55:00.117 [S][281]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 10:23:05.120 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-13 10:23:05.135 [S][298]: Old logs (298) successfully loaded...
+2017-04-13 10:23:05.161 [S][299]: loaded logs
+2017-04-13 10:23:05.161 [S][300]: Service Load Settings: 
+2017-04-13 10:23:05.191 [S][301]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-13 10:23:05.191 [S][302]: loaded settings
+2017-04-13 10:23:05.192 [S][303]: pushManager.startRegistration();
+2017-04-13 10:23:05.199 [S][304]: registered
+2017-04-13 10:23:05.200 [S][305]: service start after
+2017-04-13 10:23:05.214 [S][306]: GPS-GG start
+2017-04-13 10:23:05.311 [S][307]: GPS-GG Google API Client built
+2017-04-13 10:23:05.323 [S][308]: Service Event: onCreate
+2017-04-13 10:23:05.326 [S][309]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-13 10:23:05.656 [S][310]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 10:23:10.239 [S][311]: startRegistration
+2017-04-13 10:23:17.613 [S][312]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 10:23:18.780 [S][313]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-13 10:23:24.128 [S][314]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-13 10:23:25.076 [S][315]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 10:23:25.078 [S][316]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 10:23:25.093 [S][317]: Send register
+2017-04-13 10:23:35.079 [S][318]: Push onReceive/REGISTRATION
+2017-04-13 10:23:35.081 [S][319]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 10:23:35.081 [S][320]: context
+2017-04-13 10:23:35.082 [S][321]: C2DM egistration ID received.
+2017-04-13 10:23:35.083 [S][322]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-13 10:23:35.098 [S][323]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 10:23:35.099 [S][324]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 11:22:32.512 [A][325]: onServiceConnected: ComponentInfo{de.pappert.pp.lebensretter/de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService}
+2017-04-13 11:22:32.514 [A][326]: RnApp::AdditionServiceConnection calling wrong Activity
+2017-04-13 11:22:32.527 [A][327]: **** RnApp::AdditionServiceConnection: Startet #####
+2017-04-13 11:22:32.528 [A][328]: onServiceConnected: ComponentInfo{de.pappert.pp.lebensretter/de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService}
+2017-04-13 11:22:32.529 [A][329]: RnApp::AdditionServiceConnection calling wrong Activity
+2017-04-13 11:22:32.678 [A][330]: goto settings
+2017-04-13 11:22:32.680 [A][331]: onTabUnselected: 0
+2017-04-13 11:22:32.681 [A][332]: On tab select: 2
+2017-04-13 11:22:32.682 [A][333]: startStandby  onStart
+2017-04-13 11:22:33.155 [A][334]: initForm
+2017-04-13 11:22:33.171 [A][335]: settingsToForm: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 11:22:33.175 [A][336]: Disable Tabs {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""} auth: false online true
+2017-04-13 11:22:33.220 [A][337]: ShowAlert: Die Nutzung der Mobile Retter-APP setzt die Registrierung, sowie eine vorherige Unterweisung voraus, bei der die Vergabe der erforderlichen Zugangsdaten erfolgt.
+ Details unter: www.mobile-retter.de
+2017-04-13 11:22:33.260 [A][338]: **** LockScreen::onCreate: Backgroundworker Test in onStart
+2017-04-13 11:22:33.263 [A][339]: **** LockScreen::checkInput: RnApp.backgroundService != null
+2017-04-13 11:22:33.371 [A][340]: OperationTabbarActivity onResume
+2017-04-13 11:22:34.722 [A][341]: disable Tabs threaded...
+2017-04-13 11:22:34.758 [A][342]: initForm
+2017-04-13 11:22:34.764 [A][343]: settingsToForm: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-13 11:22:34.769 [A][344]: Disable Tabs {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""} auth: false online true
+2017-04-13 11:22:34.812 [A][345]: onTabUnselected: 2
+2017-04-13 11:22:34.818 [A][346]: onTabUnselected2: 2
+2017-04-13 11:22:34.819 [A][347]: On tab select: 0
+2017-04-13 11:22:34.825 [A][348]: On tab select2: 0
+2017-04-13 11:22:34.826 [A][349]: On tab select: 0
+2017-04-13 11:22:34.830 [A][350]: On tab select2: 0
+2017-04-13 11:22:36.312 [A][351]: disable Tabs threaded...
+2017-04-13 11:23:02.300 [A][352]: ShowAlert: Der Pin muss 4 Ziffern haben
+2017-04-13 11:23:02.303 [S][353]: GPS-GG start
+2017-04-13 11:23:02.327 [S][354]: GPS-GG Google API Client built
+2017-04-13 11:23:02.414 [S][355]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-13 11:23:02.415 [S][356]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-13 11:23:02.416 [S][357]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-13 11:23:02.417 [S][358]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-13 11:23:02.418 [S][359]: GPS-GG: Pos-Diff Action: 
+2017-04-13 11:23:02.418 [S][360]: No action found ""
+2017-04-13 11:23:02.419 [S][361]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-13 11:23:02.419 [S][362]: No action found ""
+2017-04-13 11:23:04.868 [S][363]: BatteryLevel: 100.0% 
+2017-04-13 11:23:04.869 [S][364]: Send logs: 364
+2017-04-13 11:23:04.871 [S][365]: #2.5
+2017-04-13 11:23:04.882 [S][366]: #4
+2017-04-13 11:23:04.883 [S][367]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-13 11:23:04.884 [S][368]: API ignore request and (no valid auth or ignoreauth)
+2017-04-13 11:23:04.884 [S][369]: BufferedLogService logSend
+2017-04-14 06:36:20.032 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-14 06:36:20.862 [S][387]: Old logs (387) successfully loaded...
+2017-04-14 06:36:20.866 [S][388]: loaded logs
+2017-04-14 06:36:20.866 [S][389]: Service Load Settings: 
+2017-04-14 06:36:21.897 [S][390]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-14 06:36:21.897 [S][391]: loaded settings
+2017-04-14 06:36:21.898 [S][392]: pushManager.startRegistration();
+2017-04-14 06:36:21.949 [S][393]: registered
+2017-04-14 06:36:21.950 [S][394]: service start after
+2017-04-14 06:36:21.966 [S][395]: GPS-GG start
+2017-04-14 06:36:22.823 [S][396]: GPS-GG Google API Client built
+2017-04-14 06:36:22.914 [S][397]: Service Event: onCreate
+2017-04-14 06:36:22.920 [S][398]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-14 06:36:23.029 [S][399]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-14 06:36:26.224 [S][400]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-14 06:36:26.225 [S][401]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-14 06:36:26.225 [S][402]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-14 06:36:26.225 [S][403]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-14 06:36:26.226 [S][404]: GPS-GG: Pos-Diff Action: 
+2017-04-14 06:36:26.227 [S][405]: No action found ""
+2017-04-14 06:36:26.228 [S][406]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-14 06:36:26.229 [S][407]: No action found ""
+2017-04-14 06:36:26.995 [S][408]: startRegistration
+2017-04-14 06:36:28.309 [S][409]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-14 06:36:28.633 [S][410]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-14 06:36:31.542 [S][411]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-14 06:36:31.543 [S][412]: API ignore request and (no valid auth or ignoreauth)
+2017-04-14 06:36:31.563 [S][413]: Send register
+2017-04-14 06:36:49.665 [S][414]: Push onReceive/REGISTRATION
+2017-04-14 06:36:49.667 [S][415]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-14 06:36:49.669 [S][416]: context
+2017-04-14 06:36:49.670 [S][417]: C2DM egistration ID received.
+2017-04-14 06:36:49.670 [S][418]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-14 06:36:49.697 [S][419]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-14 06:36:49.703 [S][420]: API ignore request and (no valid auth or ignoreauth)
+2017-04-14 06:36:56.033 [S][421]: GPS-GG onConnectionSuspended
+2017-04-19 11:30:19.779 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-19 11:30:21.402 [S][438]: Old logs (438) successfully loaded...
+2017-04-19 11:30:21.405 [S][439]: loaded logs
+2017-04-19 11:30:21.409 [S][440]: Service Load Settings: 
+2017-04-19 11:30:22.134 [S][441]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-19 11:30:22.135 [S][442]: loaded settings
+2017-04-19 11:30:22.135 [S][443]: pushManager.startRegistration();
+2017-04-19 11:30:22.177 [S][444]: registered
+2017-04-19 11:30:22.178 [S][445]: service start after
+2017-04-19 11:30:22.182 [S][446]: GPS-GG start
+2017-04-19 11:30:23.285 [S][447]: GPS-GG Google API Client built
+2017-04-19 11:30:23.319 [S][448]: Service Event: onCreate
+2017-04-19 11:30:23.346 [S][449]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-19 11:30:23.467 [S][450]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 11:30:26.251 [S][451]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-19 11:30:26.252 [S][452]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-19 11:30:26.252 [S][453]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-19 11:30:26.253 [S][454]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-19 11:30:26.255 [S][455]: GPS-GG: Pos-Diff Action: 
+2017-04-19 11:30:26.258 [S][456]: No action found ""
+2017-04-19 11:30:26.258 [S][457]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-19 11:30:26.259 [S][458]: No action found ""
+2017-04-19 11:30:27.215 [S][459]: startRegistration
+2017-04-19 11:30:55.229 [S][460]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 11:30:55.488 [S][461]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 11:30:58.785 [S][462]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 11:30:58.786 [S][463]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 11:30:58.786 [S][464]: Send register
+2017-04-19 11:31:18.234 [S][465]: Push onReceive/REGISTRATION
+2017-04-19 11:31:18.236 [S][466]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-19 11:31:18.236 [S][467]: context
+2017-04-19 11:31:18.238 [S][468]: C2DM egistration ID received.
+2017-04-19 11:31:18.241 [S][469]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-19 11:31:18.261 [S][470]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 11:31:18.261 [S][471]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 16:13:11.381 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-19 16:13:11.392 [S][488]: Old logs (488) successfully loaded...
+2017-04-19 16:13:11.413 [S][489]: loaded logs
+2017-04-19 16:13:11.414 [S][490]: Service Load Settings: 
+2017-04-19 16:13:11.458 [S][491]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-19 16:13:11.459 [S][492]: loaded settings
+2017-04-19 16:13:11.460 [S][493]: pushManager.startRegistration();
+2017-04-19 16:13:11.463 [S][494]: registered
+2017-04-19 16:13:11.467 [S][495]: service start after
+2017-04-19 16:13:11.481 [S][496]: GPS-GG start
+2017-04-19 16:13:11.701 [S][497]: GPS-GG Google API Client built
+2017-04-19 16:13:11.713 [S][498]: Service Event: onCreate
+2017-04-19 16:13:11.718 [S][499]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-19 16:13:11.989 [S][500]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 16:13:15.783 [S][501]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 16:13:16.507 [S][502]: startRegistration
+2017-04-19 16:13:29.252 [S][503]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 16:13:30.290 [S][504]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 16:13:30.695 [S][505]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 16:13:30.700 [S][506]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 16:13:30.702 [S][507]: Send register
+2017-04-19 16:13:41.043 [S][508]: Push onReceive/REGISTRATION
+2017-04-19 16:13:41.076 [S][509]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-19 16:13:41.077 [S][510]: context
+2017-04-19 16:13:41.077 [S][511]: C2DM egistration ID received.
+2017-04-19 16:13:41.078 [S][512]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-19 16:13:41.087 [S][513]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 16:13:41.087 [S][514]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 16:52:58.333 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-19 16:52:58.343 [S][530]: Old logs (530) successfully loaded...
+2017-04-19 16:52:58.356 [S][531]: loaded logs
+2017-04-19 16:52:58.360 [S][532]: Service Load Settings: 
+2017-04-19 16:52:58.393 [S][533]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-19 16:52:58.393 [S][534]: loaded settings
+2017-04-19 16:52:58.394 [S][535]: pushManager.startRegistration();
+2017-04-19 16:52:58.397 [S][536]: registered
+2017-04-19 16:52:58.397 [S][537]: service start after
+2017-04-19 16:52:58.418 [S][538]: GPS-GG start
+2017-04-19 16:52:58.589 [S][539]: GPS-GG Google API Client built
+2017-04-19 16:52:58.598 [S][540]: Service Event: onCreate
+2017-04-19 16:52:58.611 [S][541]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-19 16:52:58.793 [S][542]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 16:53:01.871 [S][543]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 16:53:03.447 [S][544]: startRegistration
+2017-04-19 16:53:07.107 [S][545]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 16:53:11.471 [S][546]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 16:53:12.132 [S][547]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 16:53:12.132 [S][548]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 16:53:12.133 [S][549]: Send register
+2017-04-19 16:53:29.215 [S][550]: Push onReceive/REGISTRATION
+2017-04-19 16:53:29.220 [S][551]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-19 16:53:29.221 [S][552]: context
+2017-04-19 16:53:29.221 [S][553]: C2DM egistration ID received.
+2017-04-19 16:53:29.222 [S][554]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-19 16:53:29.242 [S][555]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 16:53:29.242 [S][556]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 17:11:40.799 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-19 17:11:40.818 [S][572]: Old logs (572) successfully loaded...
+2017-04-19 17:11:40.828 [S][573]: loaded logs
+2017-04-19 17:11:40.828 [S][574]: Service Load Settings: 
+2017-04-19 17:11:40.869 [S][575]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-19 17:11:40.869 [S][576]: loaded settings
+2017-04-19 17:11:40.871 [S][577]: pushManager.startRegistration();
+2017-04-19 17:11:40.878 [S][578]: registered
+2017-04-19 17:11:40.879 [S][579]: service start after
+2017-04-19 17:11:40.901 [S][580]: GPS-GG start
+2017-04-19 17:11:40.978 [S][581]: GPS-GG Google API Client built
+2017-04-19 17:11:40.992 [S][582]: Service Event: onCreate
+2017-04-19 17:11:41.004 [S][583]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-19 17:11:41.269 [S][584]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 17:11:45.926 [S][585]: startRegistration
+2017-04-19 17:11:49.588 [S][586]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 17:11:49.923 [S][587]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-19 17:11:55.981 [S][588]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 17:11:56.058 [S][589]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 17:11:56.058 [S][590]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 17:11:56.059 [S][591]: Send register
+2017-04-19 17:12:07.530 [S][592]: Push onReceive/REGISTRATION
+2017-04-19 17:12:07.532 [S][593]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-19 17:12:07.533 [S][594]: context
+2017-04-19 17:12:07.533 [S][595]: C2DM egistration ID received.
+2017-04-19 17:12:07.534 [S][596]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-19 17:12:07.543 [S][597]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 17:12:07.544 [S][598]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 18:02:26.906 [S][599]: Service Event: onTaskRemoved start
+2017-04-19 18:02:26.909 [S][600]: Service Event: onTaskRemoved end
+2017-04-19 18:02:28.379 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-19 18:02:28.382 [S][616]: Old logs (616) successfully loaded...
+2017-04-19 18:02:28.385 [S][617]: loaded logs
+2017-04-19 18:02:28.390 [S][618]: Service Load Settings: 
+2017-04-19 18:02:28.440 [S][619]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-19 18:02:28.440 [S][620]: loaded settings
+2017-04-19 18:02:28.441 [S][621]: pushManager.startRegistration();
+2017-04-19 18:02:28.466 [S][622]: registered
+2017-04-19 18:02:28.467 [S][623]: service start after
+2017-04-19 18:02:28.471 [S][624]: GPS-GG start
+2017-04-19 18:02:28.511 [S][625]: GPS-GG Google API Client built
+2017-04-19 18:02:28.516 [S][626]: Service Event: onCreate
+2017-04-19 18:02:28.520 [S][627]: Service Event: onStartCommand: 3 sender:Not Service
+2017-04-19 18:02:28.569 [S][628]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-19 18:02:28.569 [S][629]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-19 18:02:28.570 [S][630]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-19 18:02:28.570 [S][631]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-19 18:02:28.571 [S][632]: GPS-GG: Pos-Diff Action: 
+2017-04-19 18:02:28.571 [S][633]: No action found ""
+2017-04-19 18:02:28.572 [S][634]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-19 18:02:28.577 [S][635]: No action found ""
+2017-04-19 18:02:28.923 [S][636]: Service Event: onStartCommand: 4 sender:Not Service
+2017-04-19 18:02:33.528 [S][637]: startRegistration
+2017-04-19 18:02:33.537 [S][638]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 18:02:33.558 [S][639]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-19 18:02:34.002 [S][640]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 18:02:34.003 [S][641]: API ignore request and (no valid auth or ignoreauth)
+2017-04-19 18:02:34.005 [S][642]: Send register
+2017-04-19 18:02:34.306 [S][643]: Push onReceive/REGISTRATION
+2017-04-19 18:02:34.308 [S][644]: JSON Settings: {"alert_max_volume":false,"android_gg_displacement":50,"android_gg_fastest_interval":10000,"android_gg_priority_battery":100,"android_gg_update_interval":30000,"app_active":true,"app_token":"cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8","auth":false,"gps_accuracy":100,"gps_max_tries":10,"gps_max_tries_action":"","gps_ondemand_action":"","gps_region_based_action":"","gps_region_based_on":false,"gps_region_min_seconds":20,"gps_skip_tries":3,"gps_stop_seconds":30,"gps_stop_without_sig_action":"","intervall_action":"","intervall_minutes":60,"isadmin":false,"isdeveloper":false,"onappfocus_action":"","oncasestart_action":"","onpush_action":"","password":"","pin":"","pos_diff_action":"","pos_diff_max_meter":3,"pos_diff_nomove_meter":0,"pushsound":"tone34.wav","selftest_allow":false,"settingsname":"","timer_action":"","timer_action_minutes":1,"timer_end_after_minutes":10,"timer_on":false,"username":"","username_prefix":"","valid_device_identifier":""}
+2017-04-19 18:02:34.309 [S][645]: context
+2017-04-19 18:02:34.309 [S][646]: C2DM egistration ID received.
+2017-04-19 18:02:34.310 [S][647]: sendRegistrationIdToBackend APA91bFp9ttfDAniIKrHmZkWjDGyBWRg0OB1modDqqP03oI7MZiCH07t2S7TM-EZtkTvoZ2wBHw8MC5TGbmkFw2yEfS4Qor2KsMug8xRkLCjM0M6m7_IBt3orjGd8RGjapyY56FOd9Q6
+2017-04-19 18:02:34.336 [S][648]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-19 18:02:34.337 [S][649]: API ignore request and (no valid auth or ignoreauth)
+2017-04-20 06:44:08.222 [S][1]: RnService setContext, App Version: LA 2.6.3
+2017-04-20 06:44:08.758 [S][666]: Old logs (666) successfully loaded...
+2017-04-20 06:44:08.762 [S][667]: loaded logs
+2017-04-20 06:44:08.762 [S][668]: Service Load Settings: 
+2017-04-20 06:44:09.602 [S][669]: No settings.json, load defaults: java.lang.NullPointerException: Attempt to read from field 'java.lang.String de.pappert.pp.lebensretter.Basic.Settings.username' on a null object reference
+	at de.pappert.pp.lebensretter.Basic.Settings.loadSettingsFromJson(Settings.java:446)
+	at de.pappert.pp.lebensretter.Basic.RnService.setContext(RnService.java:81)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onInit(BackgroundService.java:132)
+	at de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService.onCreate(BackgroundService.java:58)
+	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2877)
+	at android.app.ActivityThread.-wrap4(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1427)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:148)
+	at android.app.ActivityThread.main(ActivityThread.java:5417)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616)
+
+2017-04-20 06:44:09.602 [S][670]: loaded settings
+2017-04-20 06:44:09.603 [S][671]: pushManager.startRegistration();
+2017-04-20 06:44:09.610 [S][672]: registered
+2017-04-20 06:44:09.611 [S][673]: service start after
+2017-04-20 06:44:09.617 [S][674]: GPS-GG start
+2017-04-20 06:44:10.739 [S][675]: GPS-GG Google API Client built
+2017-04-20 06:44:10.771 [S][676]: Service Event: onCreate
+2017-04-20 06:44:10.779 [S][677]: Service Event: onStartCommand: 1 sender:Not Service
+2017-04-20 06:44:11.556 [S][678]: GPS-GG Couldn't get the location. Make sure location is enabled on the device
+2017-04-20 06:44:14.463 [S][679]: GPS-GG: Tries: 0/0 - Genigk.: 20.0 pro:  fused || GPS: 37.4219983|-122.084 Diff M: 1.2781324516056608E7
+2017-04-20 06:44:14.464 [S][680]: GPS-GG Rule 2 distance higher than accuracy
+2017-04-20 06:44:14.466 [S][681]: GPS-GG: Neue GPS Koordinaten wurden gesetzt
+2017-04-20 06:44:14.466 [S][682]: GPS-GG Log GPS Diff
+GPS-POS|37.4219983|-122.084|Diff-Last: 12781324.52m|*
+2017-04-20 06:44:14.467 [S][683]: GPS-GG: Pos-Diff Action: 
+2017-04-20 06:44:14.467 [S][684]: No action found ""
+2017-04-20 06:44:14.468 [S][685]: GPS-GG: GPS-OnDemand: Finish-Action: 
+2017-04-20 06:44:14.469 [S][686]: No action found ""
+2017-04-20 06:44:14.646 [S][687]: startRegistration
+2017-04-20 06:44:16.089 [S][688]: reqID: cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-20 06:44:16.278 [S][689]: sendRegistrationIdToBackend cekDLw-RoqA:APA91bE4G1PlcyGE4xtVYqAoBdR4vZe0LZmwGV6VpUeGesqRUJDvziCeoo0m7YflXYLktpuSkueOxzRAYE96jLD_T_-lv4MobyL8jFlDCEGvAjoVhyV_90SMvJP-wCejGliv9c-Q8OO8
+2017-04-20 06:44:17.563 [S][690]: ignoreAuth false RnService.settings.getAuth() false
+2017-04-20 06:44:17.563 [S][691]: API ignore request and (no valid auth or ignoreauth)
+2017-04-20 06:44:17.564 [S][692]: Send register
+2017-04-20 06:44:42.348 [S][693]: Push onReceive/REGISTRATION
+2017-04-20 06:44:42.349 [S][694]: Service not available.

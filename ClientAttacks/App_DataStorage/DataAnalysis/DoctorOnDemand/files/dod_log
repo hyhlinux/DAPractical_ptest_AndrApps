@@ -1,0 +1,264 @@
+2017/04/13 11:21:46: Opening BlankActivity
+2017/04/13 11:21:47: Device Info: Manufacturer: unknown, Board: unknown, Device: generic_x86, Model: Android SDK built for x86, PRODUCT: sdk_google_phone_x86, Android API: 23
+2017/04/13 11:21:47: Opening TutorialActivity
+2017/04/13 11:22:22: Opening HomeActivity
+2017/04/13 11:22:23: Calling members.get_terms
+2017/04/13 11:22:23: Calling members.get_settings
+2017/04/13 11:22:23: branch.io deep link data: {"+is_first_session":true,"+clicked_branch_link":false}
+2017/04/13 11:22:23: CPU Arch: i686, CPU ABIU: x86
+2017/04/13 11:22:23: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/13 11:22:23: DoD Version: 633
+2017/04/13 11:22:23: Calling members.release_hold
+2017/04/13 11:22:23: Calling members.check_client_version
+2017/04/13 11:22:23: Calling members.get_serviceability_info
+2017/04/13 11:22:23: Calling health_systems.get_organization_by_location
+2017/04/13 11:22:27: Received response for members.get_terms
+2017/04/13 11:22:28: Received response for members.get_settings
+2017/04/13 11:22:30: Received response for members.check_client_version
+2017/04/13 11:22:30: Showing dialog with title "Update
+Available!" and message "Good news! There is a new and improved version of Doctor On Demand available.
+
+Updating will improve your experience."
+2017/04/13 11:22:31: Received response for members.release_hold
+2017/04/13 11:22:34: Received response for members.get_serviceability_info
+2017/04/13 11:22:34: Received response for health_systems.get_organization_by_location
+2017/04/14 06:37:00: Opening BlankActivity
+2017/04/14 06:37:00: Device Info: Manufacturer: unknown, Board: unknown, Device: generic_x86, Model: Android SDK built for x86, PRODUCT: sdk_google_phone_x86, Android API: 23
+2017/04/14 06:37:00: Opening HomeActivity
+2017/04/14 06:37:01: Calling members.get_terms
+2017/04/14 06:37:01: Calling members.get_settings
+2017/04/14 06:37:01: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:37:01: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:37:01: DoD Version: 633
+2017/04/14 06:37:01: Calling members.release_hold
+2017/04/14 06:37:01: Calling members.check_client_version
+2017/04/14 06:37:02: Calling members.get_serviceability_info
+2017/04/14 06:37:02: Calling health_systems.get_organization_by_location
+2017/04/14 06:37:08: Received response for members.get_terms
+2017/04/14 06:37:09: Received response for members.get_settings
+2017/04/14 06:37:11: branch.io deep link data: {"+is_first_session":false,"+clicked_branch_link":false}
+2017/04/14 06:37:11: Received response for members.check_client_version
+2017/04/14 06:37:12: Received response for members.release_hold
+2017/04/14 06:37:15: Received response for members.get_serviceability_info
+2017/04/14 06:37:16: Received response for health_systems.get_organization_by_location
+2017/04/14 06:37:30: Opening ScheduleAppointmentActivity
+2017/04/14 06:37:44: Opening HtmlViewActivity
+2017/04/14 06:38:06: Opening MeetProvidersActivity
+2017/04/14 06:38:12: Opening HtmlViewActivity
+2017/04/14 06:38:18: Opening ProvidersListActivity
+2017/04/14 06:38:18: Calling members.get_doctor_bios
+2017/04/14 06:38:21: Received response for members.get_doctor_bios
+2017/04/14 06:38:29: Opening PsychBioActivity
+2017/04/14 06:38:43: Opening HtmlViewActivity
+2017/04/14 06:38:54: Opening HtmlViewActivity
+2017/04/14 06:39:06: Opening WhatWeTreatMDActivity
+2017/04/14 06:39:14: Opening HtmlViewActivity
+2017/04/14 06:39:40: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:39:40: Showing dialog with title "Device Not
+Supported" and message "To see a doctor, please log into Doctor On Demand from your desktop browser or another mobile device."
+2017/04/14 06:39:48: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:39:48: Showing dialog with title "Device Not
+Supported" and message "To see a doctor, please log into Doctor On Demand from your desktop browser or another mobile device."
+2017/04/14 06:39:53: branch.io deep link data: {}
+2017/04/14 06:39:53: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:39:53: Calling members.release_hold
+2017/04/14 06:39:53: DoD Version: 633
+2017/04/14 06:39:53: Calling members.check_client_version
+2017/04/14 06:39:53: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:39:53: Calling members.get_serviceability_info
+2017/04/14 06:39:53: Calling health_systems.get_organization_by_location
+2017/04/14 06:39:54: Received response for members.check_client_version
+2017/04/14 06:39:55: Received response for members.release_hold
+2017/04/14 06:39:55: Opening SchedulePsychologistAppointmentActivity
+2017/04/14 06:39:55: Received response for members.get_serviceability_info
+2017/04/14 06:39:56: Received response for health_systems.get_organization_by_location
+2017/04/14 06:39:58: Opening HtmlViewActivity
+2017/04/14 06:40:04: Opening HtmlViewActivity
+2017/04/14 06:40:10: Opening HtmlViewActivity
+2017/04/14 06:40:18: Opening HtmlViewActivity
+2017/04/14 06:40:24: Opening ProvidersListActivity
+2017/04/14 06:40:25: Calling members.get_psych_bios
+2017/04/14 06:40:28: Received response for members.get_psych_bios
+2017/04/14 06:40:33: Opening HtmlViewActivity
+2017/04/14 06:40:49: Opening HtmlViewActivity
+2017/04/14 06:40:52: Opening ProvidersListActivity
+2017/04/14 06:40:52: Calling members.get_psych_bios
+2017/04/14 06:40:56: Received response for members.get_psych_bios
+2017/04/14 06:41:12: branch.io deep link data: {}
+2017/04/14 06:41:12: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:41:12: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:41:12: Calling members.release_hold
+2017/04/14 06:41:12: DoD Version: 633
+2017/04/14 06:41:12: Calling members.check_client_version
+2017/04/14 06:41:12: Calling health_systems.get_organization_by_location
+2017/04/14 06:41:12: Calling members.get_serviceability_info
+2017/04/14 06:41:13: Received response for members.check_client_version
+2017/04/14 06:41:13: Opening ScheduleAppointmentActivity
+2017/04/14 06:41:14: Received response for members.release_hold
+2017/04/14 06:41:14: Received response for members.get_serviceability_info
+2017/04/14 06:41:15: Received response for health_systems.get_organization_by_location
+2017/04/14 06:41:25: Opening HtmlViewActivity
+2017/04/14 06:41:36: Opening MeetProvidersActivity
+2017/04/14 06:41:43: Opening WhatWeTreatPedsActivity
+2017/04/14 06:41:47: Opening HtmlViewActivity
+2017/04/14 06:41:59: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:41:59: Showing dialog with title "Device Not
+Supported" and message "To see a doctor, please log into Doctor On Demand from your desktop browser or another mobile device."
+2017/04/14 06:42:01: branch.io deep link data: {}
+2017/04/14 06:42:01: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:42:01: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:42:01: Calling members.release_hold
+2017/04/14 06:42:01: Calling members.check_client_version
+2017/04/14 06:42:01: DoD Version: 633
+2017/04/14 06:42:01: Calling members.get_serviceability_info
+2017/04/14 06:42:01: Calling health_systems.get_organization_by_location
+2017/04/14 06:42:02: Opening LCLandingActivity
+2017/04/14 06:42:03: Received response for members.check_client_version
+2017/04/14 06:42:03: Received response for members.release_hold
+2017/04/14 06:42:03: Opening ScheduleAppointmentActivity
+2017/04/14 06:42:03: Received response for members.get_serviceability_info
+2017/04/14 06:42:04: Received response for health_systems.get_organization_by_location
+2017/04/14 06:42:23: branch.io deep link data: {}
+2017/04/14 06:42:23: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:42:23: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:42:23: DoD Version: 633
+2017/04/14 06:42:23: Calling members.check_client_version
+2017/04/14 06:42:23: Calling members.release_hold
+2017/04/14 06:42:23: Calling members.get_serviceability_info
+2017/04/14 06:42:23: Calling health_systems.get_organization_by_location
+2017/04/14 06:42:24: Received response for members.check_client_version
+2017/04/14 06:42:24: Opening ScheduleAppointmentActivity
+2017/04/14 06:42:25: Received response for members.release_hold
+2017/04/14 06:42:25: Received response for members.get_serviceability_info
+2017/04/14 06:42:25: Received response for health_systems.get_organization_by_location
+2017/04/14 06:42:27: branch.io deep link data: {}
+2017/04/14 06:42:28: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:42:28: Calling members.check_client_version
+2017/04/14 06:42:28: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:42:28: DoD Version: 633
+2017/04/14 06:42:28: Calling members.release_hold
+2017/04/14 06:42:28: Calling members.get_serviceability_info
+2017/04/14 06:42:28: Calling health_systems.get_organization_by_location
+2017/04/14 06:42:28: Received response for members.check_client_version
+2017/04/14 06:42:28: Received response for members.release_hold
+2017/04/14 06:42:29: Received response for members.get_serviceability_info
+2017/04/14 06:42:29: Received response for health_systems.get_organization_by_location
+2017/04/14 06:42:34: Opening CreateAccountActivity
+2017/04/14 06:42:34: Calling members.get_settings
+2017/04/14 06:42:35: Received response for members.get_settings
+2017/04/14 06:42:42: branch.io deep link data: {}
+2017/04/14 06:42:42: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:42:42: Calling members.check_client_version
+2017/04/14 06:42:42: DoD Version: 633
+2017/04/14 06:42:42: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:42:42: Calling members.release_hold
+2017/04/14 06:42:42: Calling members.get_serviceability_info
+2017/04/14 06:42:42: Calling health_systems.get_organization_by_location
+2017/04/14 06:42:43: Received response for members.check_client_version
+2017/04/14 06:42:44: Received response for members.release_hold
+2017/04/14 06:42:44: Opening MeetUsActivity
+2017/04/14 06:42:44: Received response for members.get_serviceability_info
+2017/04/14 06:42:44: Received response for health_systems.get_organization_by_location
+2017/04/14 06:42:54: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 06:42:54: branch.io deep link data: {}
+2017/04/14 06:42:54: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 06:42:54: Calling members.check_client_version
+2017/04/14 06:42:54: Calling members.release_hold
+2017/04/14 06:42:54: DoD Version: 633
+2017/04/14 06:42:54: Calling members.get_serviceability_info
+2017/04/14 06:42:54: Calling health_systems.get_organization_by_location
+2017/04/14 06:42:56: Received response for members.check_client_version
+2017/04/14 06:42:56: Received response for members.release_hold
+2017/04/14 06:42:57: Received response for members.get_serviceability_info
+2017/04/14 06:42:57: Received response for health_systems.get_organization_by_location
+2017/04/14 06:44:15: Opening ScheduleAppointmentActivity
+2017/04/14 07:03:50: branch.io deep link data: {}
+2017/04/14 07:03:50: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:03:50: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 07:03:50: DoD Version: 633
+2017/04/14 07:03:50: Calling members.check_client_version
+2017/04/14 07:03:50: Calling members.release_hold
+2017/04/14 07:03:50: Calling members.get_serviceability_info
+2017/04/14 07:03:50: Calling health_systems.get_organization_by_location
+2017/04/14 07:03:51: Opening LCLandingActivity
+2017/04/14 07:03:51: Received response for members.check_client_version
+2017/04/14 07:03:52: Received response for members.release_hold
+2017/04/14 07:03:52: Received response for members.get_serviceability_info
+2017/04/14 07:03:53: Received response for health_systems.get_organization_by_location
+2017/04/14 07:03:53: branch.io deep link data: {}
+2017/04/14 07:03:53: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:03:53: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 07:03:53: Calling members.check_client_version
+2017/04/14 07:03:53: DoD Version: 633
+2017/04/14 07:03:53: Calling members.release_hold
+2017/04/14 07:03:54: Calling members.get_serviceability_info
+2017/04/14 07:03:54: Calling health_systems.get_organization_by_location
+2017/04/14 07:03:54: Received response for members.check_client_version
+2017/04/14 07:03:54: Received response for members.release_hold
+2017/04/14 07:03:54: Opening ScheduleAppointmentActivity
+2017/04/14 07:03:55: Received response for members.get_serviceability_info
+2017/04/14 07:03:55: Received response for health_systems.get_organization_by_location
+2017/04/14 07:04:02: Opening HtmlViewActivity
+2017/04/14 07:15:16: branch.io deep link data: {}
+2017/04/14 07:15:16: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:15:16: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 07:15:16: DoD Version: 633
+2017/04/14 07:15:16: Calling members.check_client_version
+2017/04/14 07:15:16: Calling members.release_hold
+2017/04/14 07:15:16: Calling health_systems.get_organization_by_location
+2017/04/14 07:15:16: Calling members.get_serviceability_info
+2017/04/14 07:15:17: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:15:17: Showing dialog with title "Device Not
+Supported" and message "To see a doctor, please log into Doctor On Demand from your desktop browser or another mobile device."
+2017/04/14 07:15:17: Received response for members.check_client_version
+2017/04/14 07:15:18: Received response for members.release_hold
+2017/04/14 07:15:18: Received response for members.get_serviceability_info
+2017/04/14 07:15:19: Received response for health_systems.get_organization_by_location
+2017/04/14 07:15:28: Opening MeetUsActivity
+2017/04/14 07:15:39: Opening HowItWorksActivity
+2017/04/14 07:15:42: Opening HtmlViewActivity
+2017/04/14 07:15:48: Opening AboutDODActivity
+2017/04/14 07:15:51: Opening HtmlViewActivity
+2017/04/14 07:16:28: branch.io deep link data: {}
+2017/04/14 07:16:28: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:16:28: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 07:16:28: Calling members.check_client_version
+2017/04/14 07:16:28: DoD Version: 633
+2017/04/14 07:16:28: Calling members.release_hold
+2017/04/14 07:16:28: Calling members.get_serviceability_info
+2017/04/14 07:16:28: Calling health_systems.get_organization_by_location
+2017/04/14 07:16:29: Opening SignInActivity
+2017/04/14 07:16:30: Received response for members.check_client_version
+2017/04/14 07:16:30: Received response for members.release_hold
+2017/04/14 07:16:31: Received response for members.get_serviceability_info
+2017/04/14 07:16:31: Received response for health_systems.get_organization_by_location
+2017/04/14 07:20:55: branch.io deep link data: {}
+2017/04/14 07:20:55: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 07:20:55: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 07:20:55: Calling members.check_client_version
+2017/04/14 07:20:55: DoD Version: 633
+2017/04/14 07:20:55: Calling members.release_hold
+2017/04/14 07:20:55: Calling members.get_serviceability_info
+2017/04/14 07:20:55: Calling health_systems.get_organization_by_location
+2017/04/14 07:20:56: Opening MeetUsActivity
+2017/04/14 07:20:57: Received response for members.check_client_version
+2017/04/14 07:20:58: Received response for members.release_hold
+2017/04/14 07:20:58: Received response for members.get_serviceability_info
+2017/04/14 07:20:59: Received response for health_systems.get_organization_by_location
+2017/04/14 07:20:59: Opening MeetProvidersActivity
+2017/04/14 07:21:04: Opening HowItWorksActivity
+2017/04/14 07:21:07: Opening PressTVActivity
+2017/04/14 07:21:10: Opening AboutDODActivity
+2017/04/14 07:21:13: Opening HtmlViewActivity
+2017/04/14 08:00:08: branch.io deep link data: {"+is_first_session":false,"+clicked_branch_link":false}
+2017/04/14 08:00:08: CPU Arch: i686, CPU ABIU: x86
+2017/04/14 08:00:08: Network Info: [type: MOBILE[LTE], state: CONNECTED/CONNECTED, reason: connected, extra: epc.tmobile.com, roaming: false, failover: false, isAvailable: true]
+2017/04/14 08:00:08: DoD Version: 633
+2017/04/14 08:00:08: Calling members.check_client_version
+2017/04/14 08:00:08: Calling members.release_hold
+2017/04/14 08:00:08: Calling health_systems.get_organization_by_location
+2017/04/14 08:00:08: Calling members.get_serviceability_info
+2017/04/14 08:00:09: Received response for members.check_client_version
+2017/04/14 08:00:10: Received response for members.release_hold
+2017/04/14 08:00:10: Received response for members.get_serviceability_info
+2017/04/14 08:00:10: Received response for health_systems.get_organization_by_location

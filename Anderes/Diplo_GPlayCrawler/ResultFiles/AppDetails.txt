@@ -1,0 +1,3131 @@
+--------------------------------------------------------------------------------------
+
+App-Nr.1:
+		AppID:					com.hp.pregnancy.lite
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.or.apotheker
+		Title:					Pregnancy +
+		Developer:				Health & Parenting Ltd
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			add or remove accounts
+			read calendar events plus confidential information
+			add or modify calendar events and send email to guests without owners\' knowledge
+			read your contacts
+			approximate location (network-based)
+			send SMS messages
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			view network connections
+			delete all app cache data
+			full network access
+			enable app debugging
+			use accounts on the device
+			control vibration
+			prevent device from sleeping
+			Google Play license check
+			receive data from Internet
+		Number of actual Permissions:21
+--------------------------------------------------------------------------------------
+
+App-Nr.2:
+		AppID:					at.or.apotheker
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.periodapp.period
+		Title:					Apotheken und Medikamente
+		Developer:				oesterreichische Apothekerkammer
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			read Google service configuration
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.3:
+		AppID:					com.periodapp.period
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.roteskreuz.st.erstehilfe
+		Title:					Period Tracker
+		Developer:				Jollymobi
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.4:
+		AppID:					at.roteskreuz.st.erstehilfe
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.librelink.app
+		Title:					Erste Hilfe - Rotes Kreuz
+		Developer:				oesterr. Rotes Kreuz, LV Stmk
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.5:
+		AppID:					com.librelink.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.baviux.pillreminder
+		Title:					LibreLink
+		Developer:				AirStrip Technologies
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control Near Field Communication
+			run at startup
+			control vibration
+			prevent device from sleeping
+			Google Play license check
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.6:
+		AppID:					com.baviux.pillreminder
+		Play-Store URL:			https://play.google.com/store/apps/details?id=net.klier.blutdruck
+		Title:					Lady Pill Reminder  ®
+		Developer:				Baviux
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			change your audio settings
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:9
+--------------------------------------------------------------------------------------
+
+App-Nr.7:
+		AppID:					net.klier.blutdruck
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.lbrc.PeriodCalendar
+		Title:					BloodPressureDB
+		Developer:				Horst Klier
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.8:
+		AppID:					com.lbrc.PeriodCalendar
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.philips.cl.uGrowDigitalParentingPlatform
+		Title:					My Calendar - Period Tracker
+		Developer:				SimpleInnovation
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.9:
+		AppID:					com.philips.cl.uGrowDigitalParentingPlatform
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.gimik.apps.mevents.eccmid
+		Title:					uGrow baby development tracker
+		Developer:				Philips Consumer Lifestyle
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			create accounts and set passwords
+			pair with Bluetooth devices
+			access Bluetooth settings
+			connect and disconnect from Wi-Fi
+			full network access
+			use accounts on the device
+			read Google service configuration
+		Number of actual Permissions:15
+--------------------------------------------------------------------------------------
+
+App-Nr.10:
+		AppID:					de.gimik.apps.mevents.eccmid
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.thieme.icare
+		Title:					ECCMID 2017
+		Developer:				M Events Cross Media GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read calendar events plus confidential information
+			add or modify calendar events and send email to guests without owners\' knowledge
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.11:
+		AppID:					com.thieme.icare
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.doccheck.flexikon
+		Title:					I care WISSEN TO GO
+		Developer:				Georg Thieme Verlag KG
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.12:
+		AppID:					com.doccheck.flexikon
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mysugr.android.companion
+		Title:					DocCheck Flexikon
+		Developer:				DocCheck
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.13:
+		AppID:					com.mysugr.android.companion
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.szyk.myheart
+		Title:					mySugr: Diabetes logbook app 
+		Developer:				mySugr GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:14
+--------------------------------------------------------------------------------------
+
+App-Nr.14:
+		AppID:					com.szyk.myheart
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.streuer.alexander.anatomyquiz
+		Title:					Blood Pressure
+		Developer:				Klimaszewski Szymon
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.15:
+		AppID:					de.streuer.alexander.anatomyquiz
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ufo.disease
+		Title:					Anatomy Quiz
+		Developer:				Alexander Streuer
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.16:
+		AppID:					com.ufo.disease
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.androiddevelopermx.blogspot.organos3d
+		Title:					Disorder & Diseases Dictionary
+		Developer:				ufostudio
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.17:
+		AppID:					com.androiddevelopermx.blogspot.organos3d
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.zlamanit.blood.pressure
+		Title:					Organs 3D (Anatomy)
+		Developer:				Ing. Victor Michel Gonzalez Galvan
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.18:
+		AppID:					com.zlamanit.blood.pressure
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.diagnosia.fachinformation
+		Title:					Blood Pressure Log - MyDiary
+		Developer:				Dr Tomasz Jan Zlamaniec
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.19:
+		AppID:					com.diagnosia.fachinformation
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.doublerouble.counter
+		Title:					Diagnosia Index Fachinfo
+		Developer:				Diagnosia
+		App is Free(No Costs):	true
+		Permissions: 
+			take pictures and videos
+			view network connections
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.20:
+		AppID:					com.doublerouble.counter
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ladytimer.ovulationcalendar
+		Title:					Contraction Timer
+		Developer:				DoubleRouble
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			prevent device from sleeping
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.21:
+		AppID:					com.ladytimer.ovulationcalendar
+		Play-Store URL:			https://play.google.com/store/apps/details?id=tikamori.com.boyorgirl
+		Title:					Ovulation & Period Calendar
+		Developer:				Vipos Apps
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.22:
+		AppID:					tikamori.com.boyorgirl
+		Play-Store URL:			https://play.google.com/store/apps/details?id=dpapps.pregnancy.scanner.test
+		Title:					Boy or girl - gender predictor
+		Developer:				Tikamori
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.23:
+		AppID:					dpapps.pregnancy.scanner.test
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.boerm.bruckmeier.arzneimittel_pocket
+		Title:					Pregnancy Test Scanner Prank
+		Developer:				DaniPani Apps
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.24:
+		AppID:					com.boerm.bruckmeier.arzneimittel_pocket
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mediapps.prana1
+		Title:					Arzneimittel pocket 2017
+		Developer:				Boerm Bruckmeier Verlag GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			connect and disconnect from Wi-Fi
+			full network access
+			prevent device from sleeping
+			Google Play license check
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.25:
+		AppID:					com.mediapps.prana1
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.sdk.blood_pressure
+		Title:					Breathing Yoga Pranayama
+		Developer:				MediApps
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.26:
+		AppID:					com.sdk.blood_pressure
+		Play-Store URL:			https://play.google.com/store/apps/details?id=dpapps.bloodgroup.scanner.bloodgroupdetector
+		Title:					Cardiac Diagnosis
+		Developer:				SUNG DO KIM
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.27:
+		AppID:					dpapps.bloodgroup.scanner.bloodgroupdetector
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.hearing.healthcare.siemens.touchcontrol
+		Title:					Blood Group Detector Prank
+		Developer:				DaniPani Apps
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.28:
+		AppID:					com.hearing.healthcare.siemens.touchcontrol
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.nannygames.calestorol
+		Title:					touchControl
+		Developer:				Sivantos Pte. Ltd.
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.29:
+		AppID:					com.nannygames.calestorol
+		Play-Store URL:			https://play.google.com/store/apps/details?id=pattarachanok.ae.krankenpflegelernquiz
+		Title:					Cholesterol detector prank
+		Developer:				Nanny Games Store
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.30:
+		AppID:					pattarachanok.ae.krankenpflegelernquiz
+		Play-Store URL:			https://play.google.com/store/apps/details?id=mapri.childgrowth
+		Title:					Krankenpflege Lern Quiz
+		Developer:				Nammon
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.31:
+		AppID:					mapri.childgrowth
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.pappermint.notfallsani
+		Title:					Child Development
+		Developer:				Mapri apps
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			use accounts on the device
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.32:
+		AppID:					de.pappermint.notfallsani
+		Play-Store URL:			https://play.google.com/store/apps/details?id=mobile.eaudiologia
+		Title:					Notfallsanitaeter
+		Developer:				Jan Lutz
+		App is Free(No Costs):	true
+		Permissions: 
+			full network access
+		Number of actual Permissions:1
+--------------------------------------------------------------------------------------
+
+App-Nr.33:
+		AppID:					mobile.eaudiologia
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.jsdev.pfei
+		Title:					Hearing Test
+		Developer:				e-audiologia.pl
+		App is Free(No Costs):	true
+		Permissions: 
+			record audio
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.34:
+		AppID:					com.jsdev.pfei
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ecare.ovulationcalculator
+		Title:					Kegel Trainer - Exercises
+		Developer:				Olson Applications Ltd
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.35:
+		AppID:					com.ecare.ovulationcalculator
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.rk.rps
+		Title:					My Ovulation Calculator
+		Developer:				Baskaran Arunasalam
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.36:
+		AppID:					at.rk.rps
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.jacek.miszczyk.pregnancytestLite
+		Title:					Dienstplan RK GRATIS
+		Developer:				Paul Spiesberger
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			read Google service configuration
+			receive data from Internet
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.37:
+		AppID:					com.jacek.miszczyk.pregnancytestLite
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.AnatomyLearning.Anatomy3DViewer3
+		Title:					Pregnancy Test
+		Developer:				Jacek Miszczyk
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.38:
+		AppID:					com.AnatomyLearning.Anatomy3DViewer3
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.despdev.weight_loss_calculator
+		Title:					Anatomy Learning - 3D Atlas
+		Developer:				AnatomyLearning
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.39:
+		AppID:					com.despdev.weight_loss_calculator
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.obproject.de
+		Title:					BMI and Weight Tracker
+		Developer:				despDev
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.40:
+		AppID:					com.obproject.de
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.atomengineapps.teachmeanatomy
+		Title:					o.b.® Kalender App
+		Developer:				Johnson & Johnson GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.41:
+		AppID:					com.atomengineapps.teachmeanatomy
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.rk.translate
+		Title:					Teach Me Anatomy
+		Developer:				TeachMeSeries Ltd
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.42:
+		AppID:					at.rk.translate
+		Play-Store URL:			https://play.google.com/store/apps/details?id=net.klier.bmi2free
+		Title:					medTranslate - Rotes Kreuz
+		Developer:				oesterr. Rotes Kreuz, LV Stmk
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			bind to a text service
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.43:
+		AppID:					net.klier.bmi2free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.kaiahealth.app
+		Title:					BMI 3D - Body Mass Index in 3D
+		Developer:				Horst Klier
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.44:
+		AppID:					com.kaiahealth.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.jawa.mobile.lkhnav
+		Title:					uebungen gegen Rueckenschmerzen
+		Developer:				Kaia
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.45:
+		AppID:					at.jawa.mobile.lkhnav
+		Play-Store URL:			https://play.google.com/store/apps/details?id=nl.peercode.allergydiary
+		Title:					LKH Graz Map
+		Developer:				JAWA Management Software GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.46:
+		AppID:					nl.peercode.allergydiary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.luckyxmobile.babycare
+		Title:					Allergy Diary by MACVIA ARIA
+		Developer:				Région Languedoc-Roussillon
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.47:
+		AppID:					com.luckyxmobile.babycare
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.miamed.amboss.knowledge
+		Title:					Baby Care - track baby growth!
+		Developer:				Breet.Jia
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.48:
+		AppID:					de.miamed.amboss.knowledge
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.itsv.mobile.eko2go
+		Title:					AMBOSS Wissen fuer Mediziner
+		Developer:				AMBOSS
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			add or remove accounts
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			create accounts and set passwords
+			full network access
+			use accounts on the device
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:10
+--------------------------------------------------------------------------------------
+
+App-Nr.49:
+		AppID:					at.itsv.mobile.eko2go
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.embryotox
+		Title:					EKO2go
+		Developer:				IT-Services der oesterr. Sozialversicherung GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			view network connections
+			control flashlight
+			full network access
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.50:
+		AppID:					de.embryotox
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.creamsoft.mygi
+		Title:					Embryotox
+		Developer:				Beratungszentrum Embryonaltoxikologie
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.51:
+		AppID:					com.creamsoft.mygi
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.brc.PeriodTrackerDiary
+		Title:					Glycemic Index & Load Diet Aid
+		Developer:				cream.software
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.52:
+		AppID:					com.brc.PeriodTrackerDiary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.austrianapps.elsevier.sobotta
+		Title:					Lulu Period Calendar & Tracker
+		Developer:				Living Better
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.53:
+		AppID:					com.austrianapps.elsevier.sobotta
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.benbasha.pill
+		Title:					Sobotta Anatomy Atlas
+		Developer:				Elsevier GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.54:
+		AppID:					com.benbasha.pill
+		Play-Store URL:			https://play.google.com/store/apps/details?id=air.com.kigorosa.babyentwicklung.ad
+		Title:					Lady Pill Reminder
+		Developer:				Ben Basha
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.55:
+		AppID:					air.com.kigorosa.babyentwicklung.ad
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.bloodgroup.detector.blood
+		Title:					Babyentwicklung
+		Developer:				kigorosa UG (haftungsbeschraenkt)
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.56:
+		AppID:					com.bloodgroup.detector.blood
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.catfishanimationstudio.MuscularSystemLite
+		Title:					Blood Group Detector Prank
+		Developer:				Wertynusa
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.57:
+		AppID:					com.catfishanimationstudio.MuscularSystemLite
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.androiddevelopermx.blogspot.bones3d
+		Title:					Muscle | Skeleton - 3D Anatomy
+		Developer:				Catfish Animation Studio
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.58:
+		AppID:					com.androiddevelopermx.blogspot.bones3d
+		Play-Store URL:			https://play.google.com/store/apps/details?id=ru.mobiledimension.kbr
+		Title:					Bones Human 3D (anatomy)
+		Developer:				Ing. Victor Michel Gonzalez Galvan
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.59:
+		AppID:					ru.mobiledimension.kbr
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.bouqt.mypill
+		Title:					Pregnancy Calendar and Tracker
+		Developer:				Mobile Dimension LLC
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			find accounts on the device
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			run at startup
+			draw over other apps
+			control vibration
+			prevent device from sleeping
+			set an alarm
+			receive data from Internet
+		Number of actual Permissions:17
+--------------------------------------------------------------------------------------
+
+App-Nr.60:
+		AppID:					com.bouqt.mypill
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.a3l.docsearch
+		Title:					myPill® Birth Control Reminder
+		Developer:				Bouqt
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			modify system settings
+			Google Play license check
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.61:
+		AppID:					com.a3l.docsearch
+		Play-Store URL:			https://play.google.com/store/apps/details?id=andrei.brusentcov.eyecheck.free
+		Title:					Arztsuche oesterreich
+		Developer:				aerztekammer fuer Niederoesterreich
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			read Google service configuration
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.62:
+		AppID:					andrei.brusentcov.eyecheck.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.microphone.earspy
+		Title:					Eye exam
+		Developer:				andrew.brusentsov
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.63:
+		AppID:					com.microphone.earspy
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.citylife.sugarrblod
+		Title:					Ear Spy: Super Hearing
+		Developer:				Overpass Apps : Super-Human Apps and Games
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.64:
+		AppID:					com.citylife.sugarrblod
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.moodtools.moodtools
+		Title:					Blood Sugar test Prank
+		Developer:				High apps
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.65:
+		AppID:					com.moodtools.moodtools
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medicalgroupsoft.medical.refdiseases.ger.free
+		Title:					MoodTools - Depression Aid
+		Developer:				MoodTools
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.66:
+		AppID:					com.medicalgroupsoft.medical.refdiseases.ger.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ovuline.pregnancy
+		Title:					Alle krankheiten (Free)
+		Developer:				Medical Group Soft
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.67:
+		AppID:					com.ovuline.pregnancy
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.insyncapp.diabete
+		Title:					Ovia Pregnancy & Baby Tracker
+		Developer:				Ovuline, Inc.
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			add or remove accounts
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			create accounts and set passwords
+			full network access
+			run at startup
+			use accounts on the device
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:14
+--------------------------------------------------------------------------------------
+
+App-Nr.68:
+		AppID:					com.insyncapp.diabete
+		Play-Store URL:			https://play.google.com/store/apps/details?id=coml.macromassive.babytooth.app
+		Title:					My Glycemia : Diabete tracker
+		Developer:				InSyncApp
+		App is Free(No Costs):	true
+		Permissions: 
+			read calendar events plus confidential information
+			read your contacts
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			Read email attachments
+			receive data from Internet
+		Number of actual Permissions:13
+--------------------------------------------------------------------------------------
+
+App-Nr.69:
+		AppID:					coml.macromassive.babytooth.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=andrei.brusentcov.eye_exercises.free
+		Title:					Baby Teething Free
+		Developer:				Macro Massive
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.70:
+		AppID:					andrei.brusentcov.eye_exercises.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.bestmedical.apps.disease.dictionary
+		Title:					Eye exercises
+		Developer:				andrew.brusentsov
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.71:
+		AppID:					com.bestmedical.apps.disease.dictionary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.roche.acconnect
+		Title:					Medical Dictionary ? Diseases
+		Developer:				TimeSoict Corp
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.72:
+		AppID:					com.roche.acconnect
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.squaremed.diabetesconnect.android
+		Title:					ACCU-CHEK® Connect App
+		Developer:				Roche Diagnostics
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			read sensitive log data
+			approximate location (network-based)
+			send SMS messages
+			access USB storage filesystem
+			read the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:15
+--------------------------------------------------------------------------------------
+
+App-Nr.73:
+		AppID:					com.squaremed.diabetesconnect.android
+		Play-Store URL:			https://play.google.com/store/apps/details?id=air.com.kigorosa.hausmittel.ad
+		Title:					Diabetes Connect
+		Developer:				SquareMed Software GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.74:
+		AppID:					air.com.kigorosa.hausmittel.ad
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.smsrobot.period
+		Title:					Natuerliche Hausmittel
+		Developer:				kigorosa UG (haftungsbeschraenkt)
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.75:
+		AppID:					com.smsrobot.period
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ecare.menstrualdiary
+		Title:					Period & Ovulation Tracker
+		Developer:				SMSROBOT LTD
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			view network connections
+			full network access
+			run at startup
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.76:
+		AppID:					com.ecare.menstrualdiary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.thieme.prometheus.LernKarten
+		Title:					My Menstrual Diary
+		Developer:				Baskaran Arunasalam
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:9
+--------------------------------------------------------------------------------------
+
+App-Nr.77:
+		AppID:					de.thieme.prometheus.LernKarten
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ecografias4d.ecografias4d
+		Title:					PROMETHEUS LernKarten
+		Developer:				Georg Thieme Verlag KG
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.78:
+		AppID:					com.ecografias4d.ecografias4d
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.bruxlabsnore
+		Title:					Pregnancy by week
+		Developer:				Ana Lopez
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.79:
+		AppID:					com.bruxlabsnore
+		Play-Store URL:			https://play.google.com/store/apps/details?id=kr.co.openit.bpdiary
+		Title:					Do I Snore or Grind
+		Developer:				Sleep.ai B.V.
+		App is Free(No Costs):	true
+		Permissions: 
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			record audio
+			view network connections
+			read battery statistics
+			pair with Bluetooth devices
+			access Bluetooth settings
+			disable your screen lock
+			full network access
+			control vibration
+			prevent device from sleeping
+			allow Bluetooth pairing by Application
+		Number of actual Permissions:13
+--------------------------------------------------------------------------------------
+
+App-Nr.80:
+		AppID:					kr.co.openit.bpdiary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.heidelberg.dgim2016
+		Title:					Blood Pressure(BP) Diary
+		Developer:				openit Inc.
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			change your audio settings
+			use accounts on the device
+			control vibration
+			prevent device from sleeping
+			full license to interact across users
+			receive data from Internet
+		Number of actual Permissions:16
+--------------------------------------------------------------------------------------
+
+App-Nr.81:
+		AppID:					com.heidelberg.dgim2016
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.rexton.bxsmartremote
+		Title:					123. DGIM Kongress 2017
+		Developer:				Deutsche Gesellschaft fuer Innere Medizin e.V.
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			find accounts on the device
+			add or remove accounts
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			record audio
+			read phone status and identity
+			view network connections
+			create accounts and set passwords
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			control Near Field Communication
+			use accounts on the device
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:19
+--------------------------------------------------------------------------------------
+
+App-Nr.82:
+		AppID:					com.rexton.bxsmartremote
+		Play-Store URL:			https://play.google.com/store/apps/details?id=pt.solidsoft.appforlibre
+		Title:					Connexx Smart Remote
+		Developer:				Sivantos Pte. Ltd.
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.83:
+		AppID:					pt.solidsoft.appforlibre
+		Play-Store URL:			https://play.google.com/store/apps/details?id=biz.weberknecht.kinderarztat_ordination
+		Title:					App For Libre (Widget)
+		Developer:				SolidSoft
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			read phone status and identity
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			control Near Field Communication
+			control vibration
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.84:
+		AppID:					biz.weberknecht.kinderarztat_ordination
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medicaljoyworks.clinicalsense
+		Title:					Ordination Kinderarzt.at
+		Developer:				weberknecht.biz
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.85:
+		AppID:					com.medicaljoyworks.clinicalsense
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.cm.liapp
+		Title:					Clinical Sense
+		Developer:				Medical Joyworks
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.86:
+		AppID:					de.cm.liapp
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.whisperarts.mrpillster
+		Title:					Liapp
+		Developer:				Marcel Klug
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			control Near Field Communication
+			control vibration
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.87:
+		AppID:					com.whisperarts.mrpillster
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ascensia.contour.at
+		Title:					Mr. Pillster - pill reminder
+		Developer:				Whisper Arts
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			approximate location (network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			manage document storage
+			receive data from Internet
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.88:
+		AppID:					com.ascensia.contour.at
+		Play-Store URL:			https://play.google.com/store/apps/details?id=kis.at.impfpass
+		Title:					CONTOUR DIABETES app (AT)
+		Developer:				Ascensia Diabetes Care
+		App is Free(No Costs):	true
+		Permissions: 
+			read your contacts
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+			run at startup
+			prevent device from sleeping
+			read Google service configuration
+		Number of actual Permissions:16
+--------------------------------------------------------------------------------------
+
+App-Nr.89:
+		AppID:					kis.at.impfpass
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.easymobs.pregnancy
+		Title:					Impfpass
+		Developer:				smdevlabs
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.90:
+		AppID:					com.easymobs.pregnancy
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.hssn.anatomyfree
+		Title:					Pregnancy Week By Week
+		Developer:				Jollymobi
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.91:
+		AppID:					com.hssn.anatomyfree
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.healint.migraineapp
+		Title:					Visual Anatomy Free
+		Developer:				Education Mobile
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.92:
+		AppID:					com.healint.migraineapp
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.developica.contracker
+		Title:					Migraine Buddy
+		Developer:				Healint
+		App is Free(No Costs):	true
+		Permissions: 
+			add or remove accounts
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			view network connections
+			create accounts and set passwords
+			read battery statistics
+			full network access
+			read sync settings
+			run at startup
+			use accounts on the device
+			toggle sync on and off
+			read sync statistics
+			receive data from Internet
+		Number of actual Permissions:13
+--------------------------------------------------------------------------------------
+
+App-Nr.93:
+		AppID:					com.developica.contracker
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.huwig.rhok.notfall
+		Title:					Contracker - contraction timer
+		Developer:				Developica
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.94:
+		AppID:					de.huwig.rhok.notfall
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.victor.ClassicAnatomy
+		Title:					Mobile emergency call
+		Developer:				Kurt Huwig
+		App is Free(No Costs):	true
+		Permissions: 
+			precise location (GPS and network-based)
+			directly call phone numbers
+			read phone status and identity
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.95:
+		AppID:					com.victor.ClassicAnatomy
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.surfcityapps.endanxiety.de
+		Title:					Classic Anatomy
+		Developer:				Victor Saase
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			draw over other apps
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.96:
+		AppID:					com.surfcityapps.endanxiety.de
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.blacktree.plasmazentrum
+		Title:					aengste loswerden Hypnose
+		Developer:				Surf City Apps
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			view network connections
+			full network access
+			change your audio settings
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.97:
+		AppID:					com.blacktree.plasmazentrum
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.hssn.anatomy3dlite
+		Title:					Plasmazentrum
+		Developer:				Black Tree
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			view Wi-Fi connections
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.98:
+		AppID:					com.hssn.anatomy3dlite
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medicalgroupsoft.medical.directorymedtermsmultilang.free
+		Title:					3D Bones and Organs (Anatomy)
+		Developer:				Education Mobile
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.99:
+		AppID:					com.medicalgroupsoft.medical.directorymedtermsmultilang.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mdhelper.cardiojournal
+		Title:					Medical Terminology (OFFLINE)
+		Developer:				Medical Group Soft
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.100:
+		AppID:					com.mdhelper.cardiojournal
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.qkstudio.vitamin.minerals
+		Title:					Cardio Journal blood pressure
+		Developer:				MDHELPER
+		App is Free(No Costs):	true 
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.101:
+		AppID:					com.qkstudio.vitamin.minerals
+		Play-Store URL:			https://play.google.com/store/apps/details?id=it.ct.glicemia
+		Title:					Vitamin & Minerals - Offline
+		Developer:				NTStudio
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.102:
+		AppID:					it.ct.glicemia
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.obscience.imamma
+		Title:					Glimp
+		Developer:				CTAPP Software
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			change your audio settings
+			control Near Field Communication
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.103:
+		AppID:					com.obscience.imamma
+		Play-Store URL:			https://play.google.com/store/apps/details?id=iconsolution.pregnancychecker.pregnancy.scanner
+		Title:					iMom • Pregnancy & Fertility
+		Developer:				OB Science S.r.l.
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.104:
+		AppID:					iconsolution.pregnancychecker.pregnancy.scanner
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.thieme.eRef
+		Title:					Pregnancy Test Checker Prank
+		Developer:				Iconsolution
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.105:
+		AppID:					de.thieme.eRef
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.citylife.Bloodgroup
+		Title:					eRef App
+		Developer:				Georg Thieme Verlag KG
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.106:
+		AppID:					com.citylife.Bloodgroup
+		Play-Store URL:			https://play.google.com/store/apps/details?id=org.zud.medizinquiz
+		Title:					Blood Group Checkup Prank
+		Developer:				High apps
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.107:
+		AppID:					org.zud.medizinquiz
+		Play-Store URL:			https://play.google.com/store/apps/details?id=air.com.kigorosa.checkliste.schwangerschaft
+		Title:					Medizin Quiz - Aufnahme Test
+		Developer:				Dr.Moeller Steve
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			view network connections
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.108:
+		AppID:					air.com.kigorosa.checkliste.schwangerschaft
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.hcvadvisor.easl
+		Title:					Pregnancy Checklists
+		Developer:				kigorosa UG (haftungsbeschroenkt)
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.109:
+		AppID:					com.hcvadvisor.easl
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pdgapp.schwangerschaft
+		Title:					EASL HCV Advisor
+		Developer:				Knobotech GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			full network access
+		Number of actual Permissions:1
+--------------------------------------------------------------------------------------
+
+App-Nr.110:
+		AppID:					com.pdgapp.schwangerschaft
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pass.notfall
+		Title:					?? schwangerschafts app
+		Developer:				PDGApp
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.111:
+		AppID:					com.pass.notfall
+		Play-Store URL:			https://play.google.com/store/apps/details?id=md.your
+		Title:					Notfall-Hilfe
+		Developer:				PASS Consulting Group
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.112:
+		AppID:					md.your
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.bchjoerni.kleinersanitaeter
+		Title:					Your.MD: Health Care Assistant
+		Developer:				Your.MD
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read your own contact card
+			read your contacts
+			approximate location (network-based)
+			receive text messages (SMS)
+			read the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			run at startup
+			use accounts on the device
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:14
+--------------------------------------------------------------------------------------
+
+App-Nr.113:
+		AppID:					at.bchjoerni.kleinersanitaeter
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.bbi.labormedizin_roche_apocket
+		Title:					Kleiner Sanitoeter
+		Developer:				bchjoerni
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.114:
+		AppID:					com.bbi.labormedizin_roche_apocket
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.kleinezeitung.aerzteguide
+		Title:					Labormedizin pocket
+		Developer:				Boerm Bruckmeier Verlag GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.115:
+		AppID:					at.kleinezeitung.aerzteguide
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.grapp.kinderarztrechner
+		Title:					oerztefoehrer Steiermark
+		Developer:				Kleine Zeitung
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+			read Google service configuration
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.116:
+		AppID:					com.grapp.kinderarztrechner
+		Play-Store URL:			https://play.google.com/store/apps/details?id=org.medbee.android
+		Title:					Ped(z) - Pediatric Calculator
+		Developer:				Daniel Groefe
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.117:
+		AppID:					org.medbee.android
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.jsolutionssp.ring
+		Title:					Medbee
+		Developer:				Medbee GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.118:
+		AppID:					com.jsolutionssp.ring
+		Play-Store URL:			https://play.google.com/store/apps/details?id=it.tecnoconference.EAS2017
+		Title:					Contraceptive ring
+		Developer:				JFMA
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			control flashlight
+			full network access
+			run at startup
+			control vibration
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.119:
+		AppID:					it.tecnoconference.EAS2017
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pzizz.android
+		Title:					EAS 2017
+		Developer:				Tecnoconference srl - TC Group
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.120:
+		AppID:					com.pzizz.android
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.graefeundunzer.mindandsoulplus
+		Title:					Pzizz - Deep Sleep & Power Nap
+		Developer:				Pzizz
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			record audio
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			draw over other apps
+			control vibration
+			prevent device from sleeping
+			Google Play license check
+			delete other apps\' data
+		Number of actual Permissions:13
+--------------------------------------------------------------------------------------
+
+App-Nr.121:
+		AppID:					de.graefeundunzer.mindandsoulplus
+		Play-Store URL:			https://play.google.com/store/apps/details?id=nl.asoft.speechassistant
+		Title:					GU Mind & Soul Plus
+		Developer:				Groefe und Unzer Verlag GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+			change your audio settings
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.122:
+		AppID:					nl.asoft.speechassistant
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.wortundbildverlag.mobil.apotheke
+		Title:					Speech Assistant AAC
+		Developer:				ASoft.nl
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.123:
+		AppID:					de.wortundbildverlag.mobil.apotheke
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.awinta.mpk
+		Title:					Apotheke vor Ort
+		Developer:				Wort und Bild Verlag
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			record audio
+			mock location sources for testing
+			view network connections
+			pair with Bluetooth devices
+			access Bluetooth settings
+			control flashlight
+			full network access
+			run at startup
+			control vibration
+			read Google service configuration
+		Number of actual Permissions:15
+--------------------------------------------------------------------------------------
+
+App-Nr.124:
+		AppID:					de.awinta.mpk
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pressure.scanner.simulator.fingerPrint.blood.meter.pressure.controle.mesure.test
+		Title:					Medikamente-per-klick
+		Developer:				Luitpold-Apotheke
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			control flashlight
+			full network access
+			control vibration
+		Number of actual Permissions:9
+--------------------------------------------------------------------------------------
+
+App-Nr.125:
+		AppID:					com.pressure.scanner.simulator.fingerPrint.blood.meter.pressure.controle.mesure.test
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.whitesmile.WhiteSmile
+		Title:					Body blood pressure Scanner
+		Developer:				SuperCoder
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			control vibration
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.126:
+		AppID:					com.whitesmile.WhiteSmile
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.appsfactory.asklepioshoertraining
+		Title:					WHITEsmile
+		Developer:				Betactive GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			full network access
+			write to your social stream
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.127:
+		AppID:					de.appsfactory.asklepioshoertraining
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.step_byte_service.pschyrembel
+		Title:					Asklepios Hoertraining
+		Developer:				APPSfactory
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.128:
+		AppID:					com.step_byte_service.pschyrembel
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.madison.DefiApp
+		Title:					Pschyrembel
+		Developer:				De Gruyter
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.129:
+		AppID:					at.madison.DefiApp
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ecare.pregnancycalculator
+		Title:					City of Graz Defi App
+		Developer:				ITG Informationstechnik Graz GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.130:
+		AppID:					com.ecare.pregnancycalculator
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview
+		Title:					My Pregnancy Calculator
+		Developer:				Baskaran Arunasalam
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.131:
+		AppID:					com.catfishanimationstudio.SkeletalSystemPreview
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.vielgesundheit.augmentedrealityapp
+		Title:					Skeleton | 3D Anatomy
+		Developer:				Catfish Animation Studio
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			full network access
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.132:
+		AppID:					com.vielgesundheit.augmentedrealityapp
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.androiddevelopermx.blogspot.muscles3d
+		Title:					plusApp
+		Developer:				teamworx mediamanagement gmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			access extra location provider commands
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			view network connections
+			control flashlight
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:14
+--------------------------------------------------------------------------------------
+
+App-Nr.133:
+		AppID:					com.androiddevelopermx.blogspot.muscles3d
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.smsrobot.reminder
+		Title:					Muscular System 3D (anatomy)
+		Developer:				Ing. Victor Michel Gonzalez Galvan
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.134:
+		AppID:					com.smsrobot.reminder
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.doppelpack_apothekenmarketing.teamsante
+		Title:					Pill Reminder / Birth Control
+		Developer:				SMSROBOT LTD
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			view network connections
+			full network access
+			run at startup
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.135:
+		AppID:					com.doppelpack_apothekenmarketing.teamsante
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.soft24hours.directorys.medical.diseasemulti.free
+		Title:					team santé
+		Developer:				Doppelpack Marketing GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			control flashlight
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.136:
+		AppID:					com.soft24hours.directorys.medical.diseasemulti.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.calorie.weight.loss.diet.tracker
+		Title:					Dictionary Diseases&Disorders
+		Developer:				24Hours
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.137:
+		AppID:					com.calorie.weight.loss.diet.tracker
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.aerzteblatt
+		Title:					Diet tracker, weight loss
+		Developer:				Live Wallpaper 3D
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.138:
+		AppID:					de.aerzteblatt
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.imigraz.ralfmuellerbooklet.demo
+		Title:					aerzteblatt.de
+		Developer:				Deutscher oerzte-Verlag GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.139:
+		AppID:					at.imigraz.ralfmuellerbooklet.demo
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.figure1.android
+		Title:					AGN Notfallfibel Demo + Abo
+		Developer:				Ralf Moeller
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			view network connections
+			full network access
+			prevent device from sleeping
+			install shortcuts
+			Google Play license check
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.140:
+		AppID:					com.figure1.android
+		Play-Store URL:			https://play.google.com/store/apps/details?id=at.medmedia.apoon
+		Title:					Figure 1 - Medical Images
+		Developer:				Figure 1 Inc.
+		App is Free(No Costs):	true
+		Permissions: 
+			read your contacts
+			read the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.141:
+		AppID:					at.medmedia.apoon
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.biodigitalhuman.humanAndroid
+		Title:					apo:on
+		Developer:				MedMedia Verlag und Mediaservice GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			record audio
+			read phone status and identity
+			view network connections
+			full network access
+			change your audio settings
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.142:
+		AppID:					com.biodigitalhuman.humanAndroid
+		Play-Store URL:			https://play.google.com/store/apps/details?id=org.kiwix.kiwixcustomwikimedde
+		Title:					BioDigital Human - 3D Anatomy
+		Developer:				BioDigital
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.143:
+		AppID:					org.kiwix.kiwixcustomwikimedde
+		Play-Store URL:			https://play.google.com/store/apps/details?id=air.com.kigorosa.lebensmittelampel.ad
+		Title:					Wikipedia Medizin (Offline)
+		Developer:				Kiwix Team
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			view network connections
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.144:
+		AppID:					air.com.kigorosa.lebensmittelampel.ad
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.documedias.DGKFT2017
+		Title:					Pregnancy Food Guide
+		Developer:				kigorosa UG (haftungsbeschroenkt)
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.145:
+		AppID:					com.documedias.DGKFT2017
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.supersimpleapps.heart_rate_monitor
+		Title:					DGK JT 2017
+		Developer:				documediaS GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.146:
+		AppID:					com.supersimpleapps.heart_rate_monitor
+		Play-Store URL:			https://play.google.com/store/apps/details?id=se.cellavision.cellatlas
+		Title:					Pulse Rate
+		Developer:				Meet Your Need Production
+		App is Free(No Costs):	true
+		Permissions: 
+			take pictures and videos
+			view network connections
+			control flashlight
+			full network access
+			run at startup
+			prevent device from sleeping
+			Google Play license check
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.147:
+		AppID:					se.cellavision.cellatlas
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.tony.molink.wfscope
+		Title:					CellaVision® CellAtlas
+		Developer:				CellaVision
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.148:
+		AppID:					com.tony.molink.wfscope
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.doctor.ecgclinicalcases
+		Title:					WFSCOPE
+		Developer:				WiFi Electronics Co.,Ltd.
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.149:
+		AppID:					com.doctor.ecgclinicalcases
+		Play-Store URL:			https://play.google.com/store/apps/details?id=kulana.tools.eisprungkalendar
+		Title:					ECG 100 Clinical Cases
+		Developer:				FreeTheDoctor
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.150:
+		AppID:					kulana.tools.eisprungkalendar
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mobostudio.nightclock
+		Title:					Eisprungrechner
+		Developer:				Kulana Media Productions LLC
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.151:
+		AppID:					com.mobostudio.nightclock
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pregnancy.drop.app
+		Title:					Nighttime Speaking Clock
+		Developer:				Mobo Studio
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.152:
+		AppID:					com.pregnancy.drop.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ada.app
+		Title:					Pregnancy Test
+		Developer:				Drop App
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.153:
+		AppID:					com.ada.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=u.ss
+		Title:					Ada Personal Health Companion
+		Developer:				Ada Health
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			receive data from Internet
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.154:
+		AppID:					u.ss
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.organizy.newborn.list
+		Title:					Ultrasound cases
+		Developer:				Gearcoin
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.155:
+		AppID:					com.organizy.newborn.list
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.snowfoxapps.ladypillalarm
+		Title:					Newborn: Baby Shopping List
+		Developer:				Organizy Ltd.
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.156:
+		AppID:					com.snowfoxapps.ladypillalarm
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.hssn.anaquizlite
+		Title:					Lady Pill Alarm
+		Developer:				Snow Fox Apps
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.157:
+		AppID:					com.hssn.anaquizlite
+		Play-Store URL:			https://play.google.com/store/apps/details?id=org.apache.cordova.styleyoursmile
+		Title:					Anatomy Quiz Free
+		Developer:				Education Mobile
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.158:
+		AppID:					org.apache.cordova.styleyoursmile
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.schilumedia.meditorium
+		Title:					Your Smile
+		Developer:				Stefan Broenner
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			record audio
+			read phone status and identity
+			view network connections
+			full network access
+			change your audio settings
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.159:
+		AppID:					com.schilumedia.meditorium
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.ovuline.parenting
+		Title:					meditorium
+		Developer:				SchiLu Media UG (haftungsbeschroenkt)
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.160:
+		AppID:					com.ovuline.parenting
+		Play-Store URL:			https://play.google.com/store/apps/details?id=DOCECGA.Doctor
+		Title:					Ovia Baby Development Tracker
+		Developer:				Ovuline, Inc.
+		App is Free(No Costs):	true
+		Permissions: 
+			read your contacts
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			create accounts and set passwords
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.161:
+		AppID:					DOCECGA.Doctor
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.appsworkplace.quizfuermediziner
+		Title:					Elektrokardiogramm EKG Typen
+		Developer:				FreeTheDoctor
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.162:
+		AppID:					com.appsworkplace.quizfuermediziner
+		Play-Store URL:			https://play.google.com/store/apps/details?id=doug.nasc.dsger
+		Title:					Quiz foer Mediziner
+		Developer:				appsworkplace
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.163:
+		AppID:					doug.nasc.dsger
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.AverageStudios.Notrufplan
+		Title:					Medizinische Woerterbuch
+		Developer:				doug.nasc
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.164:
+		AppID:					com.AverageStudios.Notrufplan
+		Play-Store URL:			https://play.google.com/store/apps/details?id=color.test.free
+		Title:					Notrufplan
+		Developer:				Average Studios
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.165:
+		AppID:					color.test.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=one.purespace.diolosalinie
+		Title:					Color Blindness test Ishihara
+		Developer:				Pixel Teddy
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.166:
+		AppID:					one.purespace.diolosalinie
+		Play-Store URL:			https://play.google.com/store/apps/details?id=bacterial.vaginosis.symptoms
+		Title:					TCM Diolosa Linie
+		Developer:				Dr. Christian El Salloum
+		App is Free(No Costs):	true
+		Permissions: 
+			full network access
+		Number of actual Permissions:1
+--------------------------------------------------------------------------------------
+
+App-Nr.167:
+		AppID:					bacterial.vaginosis.symptoms
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.touchsurgery
+		Title:					Bacterial Vaginosis Symptoms
+		Developer:				Text Examples
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.168:
+		AppID:					com.touchsurgery
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.tipps.AuslandischeArzteVokabular
+		Title:					Touch Surgery - Medical App
+		Developer:				Kinosis
+		App is Free(No Costs):	true
+		Permissions: 
+			read sensitive log data
+			find accounts on the device
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+			receive data from Internet
+		Number of actual Permissions:11
+--------------------------------------------------------------------------------------
+
+App-Nr.169:
+		AppID:					de.tipps.AuslandischeArzteVokabular
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pregnancyscanner.ovulation.menstrual
+		Title:					Deutsch foer oerzte Vokabular
+		Developer:				Besten Tipps
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.170:
+		AppID:					com.pregnancyscanner.ovulation.menstrual
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.carezone.caredroid.careapp.medications
+		Title:					Pregnancy Test Scanner Prank
+		Developer:				Holurewa
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.171:
+		AppID:					com.carezone.caredroid.careapp.medications
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.digimedia.trollsfrozenjustinmusicastimberlakeost
+		Title:					CareZone
+		Developer:				CareZone
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			add or remove accounts
+			read your contacts
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			create accounts and set passwords
+			control flashlight
+			full network access
+			read sync settings
+			run at startup
+			use accounts on the device
+			control vibration
+			prevent device from sleeping
+			modify system settings
+			toggle sync on and off
+			read sync statistics
+			receive data from Internet
+		Number of actual Permissions:19
+--------------------------------------------------------------------------------------
+
+App-Nr.172:
+		AppID:					com.digimedia.trollsfrozenjustinmusicastimberlakeost
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mobincube.android.sc_9Y7S3
+		Title:					Music & Lyrics for Trolls OST
+		Developer:				Henny Sitepu
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.173:
+		AppID:					com.mobincube.android.sc_9Y7S3
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.vielgesundheit.medqz
+		Title:					Marijuana Strain Guide
+		Developer:				Nemestrinus
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			precise location (GPS and network-based)
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:10
+--------------------------------------------------------------------------------------
+
+App-Nr.174:
+		AppID:					com.vielgesundheit.medqz
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.pfeiffer.leitlinien
+		Title:					medQZ
+		Developer:				teamworx mediamanagement gmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.175:
+		AppID:					com.pfeiffer.leitlinien
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.healthlab.erkaeltung
+		Title:					Leitlinien der Inneren Medizin
+		Developer:				Deutsche Gesellschaft foer Innere Medizin e.V.
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read calendar events plus confidential information
+			add or modify calendar events and send email to guests without owners\' knowledge
+			directly call phone numbers
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+			receive data from Internet
+		Number of actual Permissions:13
+--------------------------------------------------------------------------------------
+
+App-Nr.176:
+		AppID:					de.healthlab.erkaeltung
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.quatkhoi.diseases.dictionary
+		Title:					Erkoeltungs-Tipps
+		Developer:				FUNKE Zeitschriften Service GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:4
+--------------------------------------------------------------------------------------
+
+App-Nr.177:
+		AppID:					com.quatkhoi.diseases.dictionary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=yakovenko.aidstest
+		Title:					Disorder & Diseases Dictionary
+		Developer:				NTStudio
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.178:
+		AppID:					yakovenko.aidstest
+		Play-Store URL:			https://play.google.com/store/apps/details?id=mr.ultrasound.istation
+		Title:					HIV/AIDS Test
+		Developer:				Archi Casual
+		App is Free(No Costs):	true
+		Permissions: 
+			approximate location (network-based)
+			precise location (GPS and network-based)
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.179:
+		AppID:					mr.ultrasound.istation
+		Play-Store URL:			https://play.google.com/store/apps/details?id=eu.ipix.LexMedDE
+		Title:					MedTouch
+		Developer:				SHENZHEN MINDRAY BIO-MEDICAL ELECTRONICS CO., LTD
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			full network access
+			control vibration
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.180:
+		AppID:					eu.ipix.LexMedDE
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.springer.dgkj2
+		Title:					Medical Terms DE
+		Developer:				IPIX s.c.
+		App is Free(No Costs):	true
+		Permissions: 
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.181:
+		AppID:					com.springer.dgkj2
+		Play-Store URL:			https://play.google.com/store/apps/details?id=androiddeveloperjoe.pickacolornightlightfree
+		Title:					Poediatrie News
+		Developer:				Springer Medizin Verlag GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			retrieve running apps
+			read sensitive log data
+			read calendar events plus confidential information
+			add or modify calendar events and send email to guests without owners\' knowledge
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.182:
+		AppID:					androiddeveloperjoe.pickacolornightlightfree
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.undercoverdesigns.oneminuteultrasound.app
+		Title:					Night Light
+		Developer:				Colorwork Apps
+		App is Free(No Costs):	true
+		Permissions: 
+		Number of actual Permissions:0
+--------------------------------------------------------------------------------------
+
+App-Nr.183:
+		AppID:					com.undercoverdesigns.oneminuteultrasound.app
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.esccardio.escpocketguidelines
+		Title:					One Minute Ultrasound
+		Developer:				Undercover Designs
+		App is Free(No Costs):	true
+		Permissions: 
+			full network access
+		Number of actual Permissions:1
+--------------------------------------------------------------------------------------
+
+App-Nr.184:
+		AppID:					com.esccardio.escpocketguidelines
+		Play-Store URL:			https://play.google.com/store/apps/details?id=air.com.unit9.lifesaver.android.mobile
+		Title:					ESC Pocket Guidelines
+		Developer:				European Society of Cardiology
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+			receive data from Internet
+		Number of actual Permissions:9
+--------------------------------------------------------------------------------------
+
+App-Nr.185:
+		AppID:					air.com.unit9.lifesaver.android.mobile
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.stefanroobol.migrainediary
+		Title:					Lifesaver Mobile
+		Developer:				unit9.apps
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			disable your screen lock
+			full network access
+			prevent device from sleeping
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.186:
+		AppID:					com.stefanroobol.migrainediary
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.gerdisd.easeserdt
+		Title:					Migraine Diary
+		Developer:				SR media
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.187:
+		AppID:					com.gerdisd.easeserdt
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.monks.praxis_app.kinat
+		Title:					Krankheit Woerterbuch
+		Developer:				rikpart
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.188:
+		AppID:					com.monks.praxis_app.kinat
+		Play-Store URL:			https://play.google.com/store/apps/details?id=hu.pharmapromo.ladiesdiary_de
+		Title:					PraxisApp - Mein Poediater
+		Developer:				Monks Vertriebs GmbH
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:9
+--------------------------------------------------------------------------------------
+
+App-Nr.189:
+		AppID:					hu.pharmapromo.ladiesdiary_de
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.gnresound.tinnitus
+		Title:					Meine Tage
+		Developer:				PharmaPromo
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			prevent device from sleeping
+		Number of actual Permissions:7
+--------------------------------------------------------------------------------------
+
+App-Nr.190:
+		AppID:					com.gnresound.tinnitus
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.mydiabetes
+		Title:					ReSound Relief
+		Developer:				GN Resound
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+			download files without notification
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.191:
+		AppID:					com.mydiabetes
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medicalgroupsoft.medical.diseasesmkb.ger.free
+		Title:					Diabetes:M
+		Developer:				Sirma Medical Systems
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			create accounts and set passwords
+			full network access
+			run at startup
+			use accounts on the device
+			control vibration
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:12
+--------------------------------------------------------------------------------------
+
+App-Nr.192:
+		AppID:					com.medicalgroupsoft.medical.diseasesmkb.ger.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.uptodate.android
+		Title:					ICD-10 Diagnoseschloessel(Free)
+		Developer:				Medical Group Soft
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+		Number of actual Permissions:5
+--------------------------------------------------------------------------------------
+
+App-Nr.193:
+		AppID:					com.uptodate.android
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medicalgroupsoft.medical.nutients12.free
+		Title:					UpToDate for Android
+		Developer:				Wolters Kluwer Health | UpToDate
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+			install shortcuts
+			uninstall shortcuts
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.194:
+		AppID:					com.medicalgroupsoft.medical.nutients12.free
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.AvvaStyle.femalecalendar
+		Title:					Vitamins and Minerals (Free)
+		Developer:				Medical Group Soft
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			read phone status and identity
+			view network connections
+			full network access
+		Number of actual Permissions:6
+--------------------------------------------------------------------------------------
+
+App-Nr.195:
+		AppID:					com.AvvaStyle.femalecalendar
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.CreaBooSoft.PediHelp
+		Title:					Woman Log & Ovulation Tracker
+		Developer:				AvvaStyle
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+			run at startup
+		Number of actual Permissions:3
+--------------------------------------------------------------------------------------
+
+App-Nr.196:
+		AppID:					com.CreaBooSoft.PediHelp
+		Play-Store URL:			https://play.google.com/store/apps/details?id=org.kiwix.kiwixcustomwikimed
+		Title:					Pedi Help
+		Developer:				CreaBooSoft
+		App is Free(No Costs):	true
+		Permissions: 
+			view network connections
+			full network access
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.197:
+		AppID:					org.kiwix.kiwixcustomwikimed
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.medical.EssentialSkeleton
+		Title:					Medical Wikipedia (Offline)
+		Developer:				Kiwix Team
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			view network connections
+		Number of actual Permissions:2
+--------------------------------------------------------------------------------------
+
+App-Nr.198:
+		AppID:					com.medical.EssentialSkeleton
+		Play-Store URL:			https://play.google.com/store/apps/details?id=com.gesundbleiben.imamaipapa
+		Title:					Essential Skeleton 3
+		Developer:				3D4Medical.com, LLC
+		App is Free(No Costs):	true
+		Permissions: 
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view Wi-Fi connections
+			view network connections
+			full network access
+			prevent device from sleeping
+			Google Play license check
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.199:
+		AppID:					com.gesundbleiben.imamaipapa
+		Play-Store URL:			https://play.google.com/store/apps/details?id=de.thieme.rettentogors
+		Title:					iMamaiPapa
+		Developer:				GesundBleiben
+		App is Free(No Costs):	true
+		Permissions: 
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			take pictures and videos
+			view network connections
+			full network access
+			run at startup
+			control vibration
+			set an alarm
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+
+App-Nr.200:
+		AppID:					de.thieme.rettentogors
+URL		Title:					RETTEN TO GO - RS
+		Developer:				Georg Thieme Verlag KG
+		App is Free(No Costs):	true 
+		Permissions: 
+			retrieve running apps
+			find accounts on the device
+			read the contents of your USB storage
+			modify or delete the contents of your USB storage
+			view network connections
+			full network access
+			prevent device from sleeping
+			receive data from Internet
+		Number of actual Permissions:8
+--------------------------------------------------------------------------------------
+

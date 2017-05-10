@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <meta charset="utf-8"/>
+  <title>
+   QARK Report
+  </title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Chart.js for charts -->
+  <script src="js/Chart.js/Chart.js">
+  </script>
+  <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+
+    <![endif]-->
+  <link href="css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="navbar navbar-inverse navbar-fixed-top gradient">
+   <div class="navbar-header">
+    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+    </button>
+    <a class="navbar-brand" href="#">
+     QARK
+    </a>
+   </div>
+   <div class="collapse navbar-collapse">
+    <!--
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        -->
+   </div>
+   <!--/.nav-collapse -->
+  </div>
+  <!--/.navbar -->
+  <div class="row-offcanvas row-offcanvas-left">
+   <div class="sidebar-offcanvas" id="sidebar">
+    <div class="gradient2 col-md-12">
+     <h3>
+      Information
+     </h3>
+     <ul class="nav nav-pills nav-stacked">
+      <li class="active">
+       <a data-toggle="tab" href="#dashboard">
+        Dashboard
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#manifest">
+        Manifest
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#appcomponents">
+        App Components
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#webviews">
+        Web Views
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#x509">
+        X.509 Issues
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#filepermission">
+        File Permissions
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#crypto">
+        Crypto bugs
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#pendingintent">
+        Pending Intents
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#adbcommands">
+        ADB Commands
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#osbugs">
+        OS bugs
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#plugin">
+        Plugin Issues
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#parsingerrors">
+        Parsing Errors
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#references">
+        References
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#about">
+        About
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div id="main">
+    <div class="col-md-12">
+     <p class="visible-xs">
+      <button class="btn btn-primary btn-xs" data-toggle="offcanvas" type="button">
+       <i class="glyphicon glyphicon-chevron-left">
+       </i>
+      </button>
+     </p>
+     <br/>
+     <div class="tab-content">
+      <div class="tab-pane active" id="dashboard">
+       <div class="row">
+        <div class="col-md-12">
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-12">
+            <h2>
+             <strong>
+              STATIC CODE ANALYSIS RESULT
+             </strong>
+            </h2>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-6">
+            <h6>
+             <strong>
+              SOURCE:
+             </strong>
+             <strong>
+              <span id="apkpath">
+               <span>
+                /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate.apk
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              TOTAL FILES:
+             </strong>
+             <strong>
+              <span id="totalfiles">
+               <span>
+                3434
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              JAVA FILES:
+             </strong>
+             <strong>
+              <span id="javafiles">
+               <span>
+                1449
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              <span id="restorestats">
+               <span>
+                Restored 88 file(s) out of 95 corrupt file(s)
+               </span>
+              </span>
+             </strong>
+            </h6>
+           </div>
+           <div class="col-lg-6">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-12">
+            <div class="container-fluid">
+             <div class="row">
+              <div class="col-xs-3 col-md-3">
+               <div class="panel status panel-danger">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="vulnerability_count">
+                  <div>
+                   0
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Potential Vulnerabilities
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-warning">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="warning_count">
+                  <div>
+                   2
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Warnings
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-success">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="information_count">
+                  <div>
+                   3
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Informational
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-info">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="debug_count">
+                  <div>
+                   338
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Debug
+                 </strong>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="manifest">
+       <div class="row">
+        <div class="col-md-12">
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="manifest-issues">
+            <div class="badger-div badger-left badger-warning" data-badger="Warning">
+             <strong>
+              Backups enabled: Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+             </strong>
+             <ul>
+             </ul>
+            </div>
+            <pre id="rawmanifest"><code class="xml">&lt;?xml version="1.0" ?&gt;&lt;manifest android:versionCode="10000" android:versionName="1.0.0" package="com.andxor.pulseheartrate" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415" xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/&gt;
+    &lt;uses-permission android:name="android.permission.CAMERA"/&gt;
+    &lt;uses-permission android:name="android.permission.WAKE_LOCK"/&gt;
+    &lt;uses-feature android:name="android.hardware.camera"/&gt;
+    &lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/&gt;
+    &lt;application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/AppTheme.NoActionBar"&gt;
+        &lt;activity android:name="com.andxor.pulseheartrate.activity.MainActivity"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN"/&gt;
+                &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        &lt;provider android:authorities="com.andxor.pulseheartrate.provider" android:enabled="true" android:exported="false" android:name="com.andxor.pulseheartrate.providers.HeartsProvider"/&gt;
+        &lt;activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode" android:name="com.google.android.gms.ads.AdActivity" android:theme="@android:style/Theme.Translucent"/&gt;
+        &lt;activity android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity" android:theme="@style/Theme.IAPTheme"/&gt;
+        &lt;meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/&gt;
+    &lt;/application&gt;
+&lt;/manifest&gt;</code></pre>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="appcomponents">
+       <div class="badger-div badger-left badger-warning" data-badger="Warning">
+        <strong>
+         The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+        </strong>
+        <ul>
+         <li>
+          com.andxor.pulseheartrate.activity.MainActivity
+         </li>
+        </ul>
+       </div>
+       <div class="row">
+        <div class="col-md-12">
+         <!--<div class="well">-->
+         <!--<p>-->
+         <!--Issues related to Application Components.-->
+         <!--</p>-->
+         <!--</div>-->
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="appcomponent-issues">
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="webviews">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           A View that displays web pages. This class is the basis upon which you can roll your
+                                    own web browser or simply display some online content within your Activity. It uses
+                                    the WebKit rendering engine to display web pages and includes methods to navigate
+                                    forward and backward through a history, zoom in and out, perform text searches and
+                                    more. WebViews may be implemented using the "Android/AOSP" (WebViewClient) or 
+                                    Chrome (WebChromeClient) browsers.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="webview-issues-list">
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                  /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgb.java
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     While not a vulnerability by itself, it appears this app has JavaScript enabled in this WebView. If this is not expressly necessary, you should disable it, to prevent the possibility of XSS (cross-site scripting) attacks. More info: http://developer.android.com/guide/practices/security.html. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/JS_WARNING.html. Note: A local copy of this html file can also be found at &lt;install_dir&gt;/quark/poc/html/JS_WARNING.html
+                    </li>
+                    <li class="row-odd">
+                     BaseURL not redefined in this WebView.
+                    </li>
+                    <li class="row-even">
+                     File system access is enabled in this WebView. If untrusted data is used to specify the URL opened by this WebView, a malicious app or site may be able to read your app's private files, if it returns the response to them. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/FILE_SYS_WARN.html. Note: A local copy of this html file can also be found at &lt;install_dir&gt;/quark/poc/html/FILE_SYS_WARN.html
+                    </li>
+                    <li class="row-odd">
+                     While not a vulnerability by itself, it appears this app does not explicitly disable Content Provider access from WebViews. If the WebViews take in untrusted input, this can allow for data theft. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/WV_CPA_WARNING.html. Note: A local copy of this html file can also be found at &lt;install_dir&gt;/quark/poc/html/WV_CPA_WARNING.html
+                    </li>
+                    <li class="row-even">
+                     JavaScript running in a file scheme context can access content from any origin. This is an insecure default value for minSdkVersion &lt; 16 or may have been overridden (setAllowUniversalAccessFromFileURLs) in later versions. To validate this vulnerability, load the following url in this WebView: http://www.secbro.com/qark/poc/UNIV_FILE_WARNING.html. Note: A local copy of this html file can also be found at &lt;install_dir&gt;/quark/poc/html/UNIV_FILE_WARNING.html
+                    </li>
+                    <li class="row-odd">
+                     addJavascriptInterface not used in this WebView.&lt;br&gt;FILE: /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgb.java
+                    </li>
+                    <li class="row-even">
+                     DOM Storage not enabled for this WebView.&lt;br&gt;FILE: /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgb.java
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="x509">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This is a list of all the findings related to Certificate validation.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="x509-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="filepermission">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to File permissions.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-10 col-sm-10">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="filepermission-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="pendingintent">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to pending intents.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="pendingintent-issues-list">
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                  /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/zzc.java
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/zzc.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                  /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="crypto">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to crypto vulnerabilities in the application
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-10 col-sm-10">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="crypto-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="adbcommands">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           Until we perfect this, for manually testing, run the following command to see all the options and their meanings:
+           <kbd>
+            adb shell am
+           </kbd>
+           . Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here:
+           <a href="http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb">
+            http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+           </a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="adbcommands-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="parsingerrors">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           Until we perfect this, please review these files manually. Due to parsing errors, it is possible that an issue may not have been reported correctly.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="issues-list">
+               <span id="parsingerror-issues-list">
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzct.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzhe.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzrl.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzaa.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzce.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzir.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjq.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjq.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjq.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjq.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zznc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzey.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbg.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzds.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzdy.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcs.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgo.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzss.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzsz.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcl.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgh.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzmr.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbp.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzez.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzge.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzdm.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzlv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbm.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzpl.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzam.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzsv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzdo.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzas.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgr.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfe.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfl.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzch.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzih.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzet.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzpk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzly.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcj.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzau.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzck.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcr.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzhk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zziq.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzhj.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcn.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzba.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzan.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzjd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzbd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzqt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzhd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzeg.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzdu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzdn.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zznj.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzs.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzen.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgg.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzeu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzfn.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzgu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzlx.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/internal/zzcd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/MobileAds.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/AdLoader.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzp.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzp.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/LargeParcelTeleporter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/zzb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/AdResponseParcel.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/AdRequestInfoParcel.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/request/zzm.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzu.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzab.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/AdSizeParcel.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzac.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzr.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzh.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzz.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzs.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/client/zzv.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/formats/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/overlay/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/overlay/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/overlay/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/purchase/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/purchase/zzh.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/purchase/zze.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/reward/client/zzb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/reward/client/zzi.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/reward/client/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/reward/client/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/reward/mediation/client/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/util/client/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/internal/util/client/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/mediation/customevent/CustomEventAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/mediation/customevent/CustomEventAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/mediation/customevent/CustomEventAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/mediation/admob/AdMobExtras.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/ads/identifier/AdvertisingIdClient.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/signin/internal/zze.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/signin/internal/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/zze.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/zzf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/AccountPicker.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzp.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzj.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzt.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzs.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzr.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/zzk.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/internal/safeparcel/zzb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/server/response/FastJsonResponse.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/server/response/SafeParcelResponse.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/GoogleApiClient.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/internal/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/internal/zzx.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/internal/zzw.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/internal/zzb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/api/internal/zzo.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/stats/WakeLockEvent.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/stats/ConnectionEvent.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/common/stats/zzb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/GoogleSignInAccount.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/GoogleSignInOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/EmailSignInOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/SignInAccount.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/api/signin/internal/SignInConfiguration.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/auth/firstparty/shared/zzd.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/playlog/internal/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/playlog/internal/zzf.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/clearcut/LogEventParcelable.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/dynamic/zzc.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/flags/impl/zza.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/android/gms/security/ProviderInstaller.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/ads/AdSize.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/ads/AdRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/ads/mediation/customevent/CustomEventAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/google/ads/mediation/customevent/CustomEventAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/andxor/pulseheartrate/rate/Type.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/andxor/pulseheartrate/rate/ImageProcessing.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/andxor/pulseheartrate/view/HeartbeatView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ViewInfoStore.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ScrollingTabContainerView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActivityChooserModel.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AdapterHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/GridLayoutManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatSpinner.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActionBarContextView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActionMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ListPopupWindow.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/SwitchCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/LinearLayoutCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActionMenuView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActivityChooserView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/SearchView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/OpReorderer.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/SuggestionsAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatDrawableManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/StaggeredGridLayoutManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/RecyclerView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/Toolbar.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/OrientationHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ScrollbarHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatCheckBox.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatImageHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatRadioButton.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/DefaultItemAnimator.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ContentFrameLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ActionBarOverlayLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/LinearLayoutManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatTextHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/TintManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/AppCompatBackgroundHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ThemeUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ListViewCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/ButtonBarLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/widget/helper/ItemTouchHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/StandaloneActionMode.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuPopupHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuPopupHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuItemImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/ListMenuItemView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/ActionMenuItemView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/BaseMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/view/menu/BaseMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplV7.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/ToolbarActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/ToolbarActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/ActionBarDrawerToggle.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/ActionBarDrawerToggleHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/AppCompatViewInflater.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/WindowDecorActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/AlertController.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplBase.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/app/NotificationCompatImplBase.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/util/SortedList.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v7/graphics/drawable/DrawerArrowDrawable.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/NestedScrollView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/SlidingPaneLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/DrawerLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/ViewDragHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/CursorAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/widget/AutoScrollHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/content/PermissionChecker.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/content/LocalBroadcastManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/content/ModernAsyncTask.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/content/FileProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/PagerTitleStrip.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/PagerTitleStrip.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatLollipop.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatHC.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatBase.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/ViewPager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/view/GestureDetectorCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/graphics/ColorUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/FragmentActivity.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/ActionBarDrawerToggleHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatIceCreamSandwich.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatJellybean.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatApi20.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/ActionBarDrawerToggleJellybeanMR2.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/FragmentTransitionCompat21.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/BundleUtil.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/BackStackState.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatApi21.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/ShareCompatICS.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/BackStackRecord.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/app/NotificationCompatKitKat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/TransportMediator.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/TransportMediatorJellybeanMR2.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/MediaMetadataCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/RatingCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/session/MediaSessionCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/session/PlaybackStateCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/media/session/MediaControllerCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/util/LruCache.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/util/TimeUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/text/BidiFormatter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/hardware/fingerprint/FingerprintManagerCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/os/CancellationSignal.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/v4/print/PrintHelperKitkat.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/FloatingActionButton.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/StateListAnimator.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/TabLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/ViewUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/AppBarLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/FloatingActionButtonEclairMr1.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/SwipeDismissBehavior.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/CollapsingTextHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/FloatingActionButtonLollipop.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/CoordinatorLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/NavigationView.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/CollapsingToolbarLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/TextInputLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/widget/SnackbarManager.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/internal/NavigationMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/internal/NavigationMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/android/support/design/internal/NavigationMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /media/jownzyyy/USB DISK/DiploPracticalApps/pulseheartRate/classes_dex2jar/com/andxor/pulseheartrate/activity/MainActivity.java
+                </strong>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="osbugs">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section is related to any operating system related issues. This information was
+                                    identified from the application's manifest and we encourage you to understand the type
+                                    of vulnerabilities that live ourside your application's sandbox but may affect your
+                                     application in some way or the other.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-8 col-sm-8">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-8">
+            <h2>
+             OS Version specific bugs
+            </h2>
+            <p class="text-justify">
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+         <div class="well">
+          <p>
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="plugin">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <p>
+           Plugin content output if any
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="plugin-issues-list">
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="references">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <p>
+           This is a list of resources you may refer to understand more about android security
+                                     in general and also how specific programming mistakes or insecure-by-default settings may manifest themselves into
+                                     vulnerabilities. We are currently hand picking credible resources to add to the list. Please check for updates to get a revised list of references.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12">
+            <h2>
+             List of resources
+            </h2>
+            <br/>
+            <br/>
+            <ul>
+             <li>
+              <p class="">
+               For general Android security information:
+               <a href="http://developer.android.com/training/articles/security-tips.html">
+                http://developer.android.com/training/articles/security-tips.html
+               </a>
+              </p>
+             </li>
+             <li>
+              For information on proper TLS implementation:
+              <a href="http://developer.android.com/training/articles/security-ssl.html">
+               http://developer.android.com/training/articles/security-ssl.html
+              </a>
+             </li>
+             <li>
+              A great guide to Android security, from the Japanese Smartphone Security Association:
+              <a href="https://www.jssec.org/report/android_securecoding_en_20140801.html">
+               https://www.jssec.org/report/android_securecoding_en_20140801.html
+              </a>
+             </li>
+             <p>
+             </p>
+            </ul>
+            <br/>
+            <br/>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="about">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <h2>
+           <strong>
+            QUICK ANDROID REVIEW KIT
+           </strong>
+          </h2>
+          <strong>
+           Version 0.9
+          </strong>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12">
+            <br/>
+            <br/>
+            <br/>
+            <h4>
+             <strong>
+              Source:
+             </strong>
+            </h4>
+            <p class="">
+             Github:
+             <a href="https://www.github.com/linkedin/qark">
+              https://www.github.com/linkedin/qark
+             </a>
+             <br/>
+            </p>
+            <h4>
+             <strong>
+              Authors:
+             </strong>
+            </h4>
+            <strong>
+             Anthony Trummer:
+            </strong>
+            <a href="https://www.linkedin.com/in/tonytrummer">
+             https://www.linkedin.com/in/tonytrummer
+            </a>
+            <br/>
+            <strong>
+             Tushar Dalvi:
+            </strong>
+            <a href="https://www.linkedin.com/in/tdalvi">
+             https://www.linkedin.com/in/tdalvi
+            </a>
+            <p>
+            </p>
+            <br/>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <div class="well">
+         <p>
+          QARK Version 0.9
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--/row-offcanvas -->
+  </div>
+  <!-- /.modal -->
+  <!-- script references -->
+  <script src="js/jquery-2.1.4.min.js">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
+  <script src="js/scripts.js">
+  </script>
+  <link href="js/highlight/styles/magula.css" rel="stylesheet"/>
+  <script src="js/highlight/highlight.pack.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+ </body>
+</html>

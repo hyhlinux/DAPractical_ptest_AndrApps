@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="first_ad_req_time_ms" value="1492081966348" />
+    <int name="request_in_session_count" value="8" />
+    <boolean name="auto_collect_location" value="true" />
+    <boolean name="content_url_opted_out" value="true" />
+    <boolean name="use_https" value="false" />
+    <long name="app_last_background_time_ms" value="1492082500825" />
+</map>

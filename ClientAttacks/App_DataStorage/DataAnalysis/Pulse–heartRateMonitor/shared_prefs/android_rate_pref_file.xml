@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="android_rate_install_date" value="1491931024574" />
+    <boolean name="android_rate_is_agree_show_dialog" value="false" />
+    <int name="android_rate_launch_times" value="4" />
+</map>

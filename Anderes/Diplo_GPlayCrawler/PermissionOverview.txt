@@ -1,0 +1,60 @@
+--------------------------------------------------------------------------------------
+find accounts on the device
+add or remove accounts
+read calendar events plus confidential information
+add or modify calendar events and send email to guests without owners\' knowledge
+read your contacts
+approximate location (network-based)
+send SMS messages
+directly call phone numbers
+read the contents of your USB storage
+modify or delete the contents of your USB storage
+take pictures and videos
+view Wi-Fi connections
+view network connections
+delete all app cache data
+full network access
+enable app debugging
+use accounts on the device
+control vibration
+prevent device from sleeping
+Google Play license check
+receive data from Internet
+precise location (GPS and network-based)
+run at startup
+read Google service configuration
+control Near Field Communication
+change your audio settings
+read phone status and identity
+create accounts and set passwords
+pair with Bluetooth devices
+access Bluetooth settings
+connect and disconnect from Wi-Fi
+retrieve running apps
+record audio
+bind to a text service
+control flashlight
+draw over other apps
+set an alarm
+modify system settings
+Read email attachments
+read sensitive log data
+access USB storage filesystem
+read battery statistics
+disable your screen lock
+allow Bluetooth pairing by Application
+full license to interact across users
+manage document storage
+read sync settings
+toggle sync on and off
+read sync statistics
+read your own contact card
+receive text messages (SMS)
+delete other apps\' data
+mock location sources for testing
+write to your social stream
+access extra location provider commands
+install shortcuts
+download files without notification
+uninstall shortcuts
+--------------------------------------------------------------------------------------

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="Date of setting feed">09-May-2017</string>
+    <string name="isDueDate">Yes</string>
+    <string name="Gender of baby">Unknown</string>
+    <string name="Show week">Completed</string>
+    <string name="Weight_Unit">lb</string>
+    <string name="First Name">Gff</string>
+    <string name="regId">APA91bEHMGq9N7nWJe-G_6z6p_ZJvzUhtDgQXIMDExZG1t434xAl20wyc3jp4lCJILTnnqSJ1UjT9mn3dkatXWCkohxc5Fc2IVyb4TbUsYqJJ1JnYAGwu06jqfoD1ENXsvCEvSnk3ZiK</string>
+    <string name="Lenght_Unit">IN</string>
+    <string name="gender">Unknown</string>
+    <string name="reminder_flag">OFF</string>
+    <string name="Feed_Image">http://www.health-and-parenting.com/wp-content/uploads/2016/07/042-1.jpg</string>
+    <string name="AF_trinidad &amp; tobago">{&quot;color&quot;:&quot;252,142,171&quot;,&quot;country&quot;:&quot;Trinidad \u0026 Tobago&quot;,&quot;destination&quot;:&quot;https://www.health-and-parenting.com/what-is-zika-virus/&quot;,&quot;heading&quot;:&quot;What is Zika virus?&quot;,&quot;locale&quot;:&quot;AF&quot;,&quot;notification&quot;:&quot;&quot;,&quot;previewImage&quot;:&quot;https://s3-eu-west-1.amazonaws.com/hpfeed-images/Me_Medical_Zika_image&quot;,&quot;subHeading&quot;:&quot;Zika virus is spread by mosquitoes ...&quot;,&quot;type&quot;:&quot;SMALL&quot;}</string>
+    <int name="NotificationPresent" value="0" />
+    <string name="LOCALE">en_US</string>
+    <int name="surveyCount" value="1" />
+    <string name="Annonymous_signup_date">1494345793451</string>
+    <string name="feedTitle">Five Widely Believed Pregnancy Myths</string>
+    <string name="Location">United States</string>
+    <boolean name="Dailog displayed" value="false" />
+    <boolean name="isSplashLaunch" value="false" />
+    <string name="Relation with baby">Mother</string>
+    <string name="DueDate">1514851200000</string>
+    <int name="LoginType" value="4" />
+    <boolean name="isSignedUp" value="false" />
+</map>

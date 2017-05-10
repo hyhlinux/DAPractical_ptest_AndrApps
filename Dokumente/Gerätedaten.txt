@@ -1,0 +1,31 @@
+
+Reales Gerät:
+
+	Devixe: Sony Xperia Z3 - D6603
+	Android Version: 6.0.1
+	Sicherheitspatch Ebene 1.Mai 2016
+	Firmware Build: 23.5.A.1.291
+
+Emulator:
+
+	2xEmulierte Geräte:
+
+		Testphone1_Nougat
+			Operating System: Android Nougat 7.1.1 x86
+			Device: Nexus 5; 4.95 1080x1920
+			Name: Testphone_1-Nexus_6P_Nougat_7.1.1_API-25
+			CPU/ABI: Google APIs Intel Atom (x86)
+			Path: C:\Users\jowNyyy\.android\avd\Testphone_1-Nexus_6P_Nougat_7.1.1_API-25.avd
+			Target: google_apis [Google APIs] (API level 25)
+			Skin: nexus_5
+			SD Card: C:\Users\jowNyyy\.android\avd\Testphone_1-Nexus_6P_Nougat_7.1.1_API-25.avd\sdcard.img   
+  
+		Testphone2_Marshmallow
+			Operating System: Android Marshmallow 6.0 x86
+			Device: Nexus 5X; 5.2 1080x1920
+			Name: Testphone2-Nexus5x_Marshmallow
+			CPU/ABI: Google APIs Intel Atom (x86)
+			Path: C:\Users\jowNyyy\.android\avd\Nexus_5X_API_23.avd
+			Target: google_apis [Google APIs] (API level 23)
+			Skin: nexus_5x
+			SD Card: C:\Users\jowNyyy\.android\avd\Nexus_5X_API_23.avd\sdcard.img

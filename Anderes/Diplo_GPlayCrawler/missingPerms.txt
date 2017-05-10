@@ -1,0 +1,37 @@
+"com.hp.pregnancy.lite"			find accounts on the device
+"com.hp.pregnancy.lite"			add or modify calendar events and send email to guests without owners\' knowledge
+"at.or.apotheker"			precise location (GPS and network-based)
+"at.or.apotheker"			run at startup
+"at.or.apotheker"			read Google service configuration
+"com.librelink.app"			control Near Field Communication
+"net.klier.blutdruck"			pair with Bluetooth devices
+"net.klier.blutdruck"			access Bluetooth settings
+"com.philips.cl.uGrowDigitalParentingPlatform"			read phone status and identity
+"com.philips.cl.uGrowDigitalParentingPlatform"			create accounts and set passwords
+"com.philips.cl.uGrowDigitalParentingPlatform"			connect and disconnect from Wi-Fi
+"com.thieme.icare"			retrieve running apps
+"mobile.eaudiologia"			record audio
+"at.rk.translate"			bind to a text service
+"nl.peercode.allergydiary"			mock location sources for testing
+"com.luckyxmobile.babycare"			access USB storage filesystem
+"com.luckyxmobile.babycare"			change system display settings
+"com.luckyxmobile.babycare"			disable your screen lock
+"com.luckyxmobile.babycare"			install shortcuts
+"com.luckyxmobile.babycare"			read Home settings and shortcuts
+"com.luckyxmobile.babycare"			write Home settings and shortcuts
+"at.itsv.mobile.eko2go"			control flashlight
+"com.bouqt.mypill"			modify system settings
+"com.insyncapp.diabete"			Read email attachments
+"com.roche.acconnect"			read sensitive log data
+"com.bruxlabsnore"			read battery statistics
+"com.bruxlabsnore"			allow Bluetooth pairing by Application
+"kr.co.openit.bpdiary"			full license to interact across users
+"com.healint.migraineapp"			read sync settings
+"com.healint.migraineapp"			toggle sync on and off
+"com.healint.migraineapp"			read sync statistics
+"com.victor.ClassicAnatomy"			draw over other apps
+"com.pzizz.android"			delete other apps\' data
+"com.whitesmile.WhiteSmile"			write to your social stream
+"com.vielgesundheit.augmentedrealityapp"			access extra location provider commands
+"com.documedias.DGKFT2017"			modify your contacts
+"com.digimedia.trollsfrozenjustinmusicastimberlakeost"			control media playback and metadata access
