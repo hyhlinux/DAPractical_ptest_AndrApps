@@ -1,0 +1,115 @@
+Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+
+run app.package.info -a com.hp.pregnancy.lite
+dz> Package: com.hp.pregnancy.lite
+  Application Label: Schwanger +
+  Process Name: com.hp.pregnancy.lite
+  Version: 4.2
+  Data Directory: /data/user/0/com.hp.pregnancy.lite
+  APK Path: /data/app/com.hp.pregnancy.lite-2/base.apk
+  UID: 10004
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.CAMERA
+  - android.permission.INTERNET
+  - android.permission.ACCESS_COARSE_LOCATION
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.MANAGE_ACCOUNTS
+  - android.permission.WRITE_EXTERNAL_STORAGE
+  - android.permission.READ_EXTERNAL_STORAGE
+  - android.permission.WAKE_LOCK
+  - com.google.android.c2dm.permission.RECEIVE
+  - android.permission.READ_CALENDAR
+  - android.permission.WRITE_CALENDAR
+  - android.permission.VIBRATE
+  - com.android.vending.BILLING
+  - com.sec.android.iap.permission.BILLING
+  - android.permission.READ_CONTACTS
+  - android.permission.SEND_SMS
+  - android.permission.CLEAR_APP_CACHE
+  - android.permission.GET_ACCOUNTS
+  - android.permission.USE_CREDENTIALS
+  - android.permission.ACCESS_WIFI_STATE
+  - com.android.vending.CHECK_LICENSE
+  - android.permission.SET_DEBUG_APP
+  - android.permission.CALL_PHONE
+  - android.hardware.telephony
+  - com.hp.pregnancy.lite.permission.C2D_MESSAGE
+  Defines Permissions:
+  - com.hp.pregnancy.lite.permission.C2D_MESSAGE
+
+run app.package.attacksurface com.hp.pregnancy.lite 
+dz> Attack Surface:
+  6 activities exported
+  6 broadcast receivers exported
+  1 content providers exported
+  3 services exported
+ 
+run app.activity.info -a com.hp.pregnancy.lite
+dz> Package: com.hp.pregnancy.lite
+  com.hp.pregnancy.lite.SplashScreenActivity
+    Permission: null
+  com.hp.pregnancy.lite.LandingScreenPhoneActivity
+    Permission: null
+  com.hp.pregnancy.lite.SignUpScreenActivity
+    Permission: null
+  com.google.android.gms.appinvite.PreviewActivity
+    Permission: null
+  com.facebook.CustomTabActivity
+    Permission: null
+  com.surveymonkey.surveymonkeyandroidsdk.SMFeedbackActivity
+    Permission: null
+
+run app.broadcast.info -a com.hp.pregnancy.lite
+dz> Package: com.hp.pregnancy.lite
+  com.google.android.gms.gcm.GcmReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+  com.google.android.gms.analytics.AnalyticsReceiver
+    Permission: null
+  com.parse.GcmBroadcastReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+  com.google.android.gms.analytics.CampaignTrackingReceiver
+    Permission: null
+  com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+    Permission: android.permission.INSTALL_PACKAGES
+  com.google.firebase.iid.FirebaseInstanceIdReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+
+run app.service.info -a com.hp.pregnancy.lite
+dz> Package: com.hp.pregnancy.lite
+  com.google.android.gms.auth.api.signin.RevocationBoundService
+    Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+  com.google.firebase.messaging.FirebaseMessagingService
+    Permission: null
+  com.google.firebase.iid.FirebaseInstanceIdService
+    Permission: null
+
+run app.provider.info -a com.hp.pregnancy.lite
+dz> Package: com.hp.pregnancy.lite
+  Authority: com.facebook.app.FacebookContentProvider546319842074484
+    Read Permission: null
+    Write Permission: null
+    Content Provider: com.facebook.FacebookContentProvider
+    Multiprocess Allowed: False
+    Grant Uri Permissions: False
+
+dz> dz> 

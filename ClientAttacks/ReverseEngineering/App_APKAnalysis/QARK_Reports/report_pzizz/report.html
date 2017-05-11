@@ -1,0 +1,2846 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <meta charset="utf-8"/>
+  <title>
+   QARK Report
+  </title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
+  <link href="css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Chart.js for charts -->
+  <script src="js/Chart.js/Chart.js">
+  </script>
+  <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+
+    <![endif]-->
+  <link href="css/styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <div class="navbar navbar-inverse navbar-fixed-top gradient">
+   <div class="navbar-header">
+    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+     <span class="icon-bar">
+     </span>
+    </button>
+    <a class="navbar-brand" href="#">
+     QARK
+    </a>
+   </div>
+   <div class="collapse navbar-collapse">
+    <!--
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        -->
+   </div>
+   <!--/.nav-collapse -->
+  </div>
+  <!--/.navbar -->
+  <div class="row-offcanvas row-offcanvas-left">
+   <div class="sidebar-offcanvas" id="sidebar">
+    <div class="gradient2 col-md-12">
+     <h3>
+      Information
+     </h3>
+     <ul class="nav nav-pills nav-stacked">
+      <li class="active">
+       <a data-toggle="tab" href="#dashboard">
+        Dashboard
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#manifest">
+        Manifest
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#appcomponents">
+        App Components
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#webviews">
+        Web Views
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#x509">
+        X.509 Issues
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#filepermission">
+        File Permissions
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#crypto">
+        Crypto bugs
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#pendingintent">
+        Pending Intents
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#adbcommands">
+        ADB Commands
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#osbugs">
+        OS bugs
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#plugin">
+        Plugin Issues
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#parsingerrors">
+        Parsing Errors
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#references">
+        References
+       </a>
+      </li>
+      <li>
+       <a data-toggle="tab" href="#about">
+        About
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div id="main">
+    <div class="col-md-12">
+     <p class="visible-xs">
+      <button class="btn btn-primary btn-xs" data-toggle="offcanvas" type="button">
+       <i class="glyphicon glyphicon-chevron-left">
+       </i>
+      </button>
+     </p>
+     <br/>
+     <div class="tab-content">
+      <div class="tab-pane active" id="dashboard">
+       <div class="row">
+        <div class="col-md-12">
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-12">
+            <h2>
+             <strong>
+              STATIC CODE ANALYSIS RESULT
+             </strong>
+            </h2>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-6">
+            <h6>
+             <strong>
+              SOURCE:
+             </strong>
+             <strong>
+              <span id="apkpath">
+               <span>
+                /home/jownzyyy/Schreibtisch/pzizz/pzizz.apk
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              TOTAL FILES:
+             </strong>
+             <strong>
+              <span id="totalfiles">
+               <span>
+                5972
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              JAVA FILES:
+             </strong>
+             <strong>
+              <span id="javafiles">
+               <span>
+                3286
+               </span>
+              </span>
+             </strong>
+            </h6>
+            <h6>
+             <strong>
+              <span id="restorestats">
+               <span>
+                Restored 191 file(s) out of 219 corrupt file(s)
+               </span>
+              </span>
+             </strong>
+            </h6>
+           </div>
+           <div class="col-lg-6">
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-12 col-sm-12">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-12">
+            <div class="container-fluid">
+             <div class="row">
+              <div class="col-xs-3 col-md-3">
+               <div class="panel status panel-danger">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="vulnerability_count">
+                  <div>
+                   0
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Potential Vulnerabilities
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-warning">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="warning_count">
+                  <div>
+                   1
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Warnings
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-success">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="information_count">
+                  <div>
+                   5
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Informational
+                 </strong>
+                </div>
+               </div>
+              </div>
+              <div class="col-xs-6 col-md-3">
+               <div class="panel status panel-info">
+                <div class="panel-heading">
+                 <h1 class="panel-title text-center" id="debug_count">
+                  <div>
+                   652
+                  </div>
+                 </h1>
+                </div>
+                <div class="panel-body text-center">
+                 <strong>
+                  Debug
+                 </strong>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="manifest">
+       <div class="row">
+        <div class="col-md-12">
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="manifest-issues">
+            <div class="badger-div badger-left badger-success" data-badger="Info">
+             <strong>
+              The backup element is not specified in the manifest, which therefore defaults to true. Potential for data theft via local attacks via adb backup, if the device has USB debugging enabled (not common). More info: http://developer.android.com/reference/android/R.attr.html#allowBackup
+             </strong>
+             <ul>
+             </ul>
+            </div>
+            <pre id="rawmanifest"><code class="xml">&lt;?xml version="1.0" ?&gt;&lt;manifest android:versionCode="36" android:versionName="3.9.5" package="com.pzizz.android" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002" xmlns:android="http://schemas.android.com/apk/res/android"&gt;
+    &lt;uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23"/&gt;
+    &lt;uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/&gt;
+    &lt;uses-permission android:name="com.android.vending.CHECK_LICENSE"/&gt;
+    &lt;uses-permission android:name="android.permission.INTERNET"/&gt;
+    &lt;uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/&gt;
+    &lt;uses-permission android:name="android.permission.WAKE_LOCK"/&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/&gt;
+    &lt;uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/&gt;
+    &lt;android:uses-permission android:name="android.permission.READ_PHONE_STATE"/&gt;
+    &lt;android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/&gt;
+    &lt;application android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.pzizz.android.ApplicationClass"&gt;
+        &lt;activity android:label="" android:name="com.pzizz.android.PlayerMainActivity" android:screenOrientation="portrait" android:theme="@style/CustomActionBarTheme"/&gt;
+        &lt;activity android:launchMode="singleTask" android:name="com.pzizz.android.ModulePickerActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"&gt;
+            &lt;intent-filter&gt;
+                &lt;data android:host="open" android:scheme="pzizz"/&gt;
+                &lt;action android:name="android.intent.action.VIEW"/&gt;
+                &lt;category android:name="android.intent.category.DEFAULT"/&gt;
+                &lt;category android:name="android.intent.category.BROWSABLE"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        &lt;activity android:label="@string/app_name" android:name="com.pzizz.android.VideoSplash" android:screenOrientation="portrait"&gt;
+            &lt;intent-filter&gt;
+                &lt;action android:name="android.intent.action.MAIN"/&gt;
+                &lt;category android:name="android.intent.category.LAUNCHER"/&gt;
+            &lt;/intent-filter&gt;
+        &lt;/activity&gt;
+        &lt;activity android:name="com.pzizz.android.tutorial.WelcomeScreenActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/&gt;
+        &lt;service android:enabled="true" android:exported="false" android:name="com.pzizz.android.downloader.DownloadService"/&gt;
+        &lt;receiver android:enabled="true" android:exported="false" android:name="com.pzizz.android.downloader.AlarmReceiver"/&gt;
+        &lt;meta-data android:name="io.fabric.ApiKey" android:value="547414764aa8660c31757d584fed58a4b51d781e"/&gt;
+        &lt;meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_ibpZqCjNPB39mCeA1aXg5mcczDhxa3MY"/&gt;
+    &lt;/application&gt;
+&lt;/manifest&gt;</code></pre>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="appcomponents">
+       <div class="badger-div badger-left badger-warning" data-badger="Warning">
+        <strong>
+         The following activity are exported, but not protected by any permissions. Failing to protect activity could leave them vulnerable to attack by malicious apps. The activity should be reviewed for vulnerabilities, such as injection and information leakage.
+        </strong>
+        <ul>
+         <li>
+          com.pzizz.android.ModulePickerActivity
+         </li>
+         <li>
+          com.pzizz.android.VideoSplash
+         </li>
+        </ul>
+       </div>
+       <div class="row">
+        <div class="col-md-12">
+         <!--<div class="well">-->
+         <!--<p>-->
+         <!--Issues related to Application Components.-->
+         <!--</p>-->
+         <!--</div>-->
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="appcomponent-issues">
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="webviews">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           A View that displays web pages. This class is the basis upon which you can roll your
+                                    own web browser or simply display some online content within your Activity. It uses
+                                    the WebKit rendering engine to display web pages and includes methods to navigate
+                                    forward and backward through a history, zoom in and out, perform text searches and
+                                    more. WebViews may be implemented using the "Android/AOSP" (WebViewClient) or 
+                                    Chrome (WebChromeClient) browsers.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="webview-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="x509">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This is a list of all the findings related to Certificate validation.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="x509-issues-list">
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     Potential Man-In-The-Middle vulnerability - There appear to be SSLSession (boolean) objects which are not checked using the HostnameVerifier.verify method. You should manually inspect these in: /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/DefaultUserTokenHandler.java. Please see this URL for details: https://developer.android.com/training/articles/security-ssl.html
+                    </li>
+                    <li class="row-odd">
+                     Potential Man-In-The-Middle vulnerability - There appear to be SSLSession (boolean) objects which are not checked using the HostnameVerifier.verify method. You should manually inspect these in: /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/ManagedClientConnectionImpl.java. Please see this URL for details: https://developer.android.com/training/articles/security-ssl.html
+                    </li>
+                    <li class="row-even">
+                     Potential Man-In-The-Middle vulnerability - There appear to be SSLSession (boolean) objects which are not checked using the HostnameVerifier.verify method. You should manually inspect these in: /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/ssl/AbstractVerifier.java. Please see this URL for details: https://developer.android.com/training/articles/security-ssl.html
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="filepermission">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to File permissions.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-10 col-sm-10">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="filepermission-issues-list">
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="pendingintent">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to pending intents.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="pendingintent-issues-list">
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                  /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     Implicit Intent: localIntent used to create instance of PendingIntent. A malicious application could potentially intercept, redirect and/or modify (in a limited manner) this Intent. Pending Intents retain the UID of your application and all related permissions, allowing another application to act as yours.  File: /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java More details: https://www.securecoding.cert.org/confluence/display/android/DRD21-J.+Always+pass+explicit+intents+to+a+PendingIntent
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="crypto">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section lists any issues related to crypto vulnerabilities in the application
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-10 col-sm-10">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="crypto-issues-list">
+               <div class="badger-div badger-left badger-success" data-badger="Info">
+                <br/>
+                <strong>
+                 File:
+                 <code>
+                  /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/auth/o.java
+                 </code>
+                </strong>
+                <br/>
+                <h4>
+                 <strong class="details">
+                  <div>
+                   <ul>
+                    <li class="row-even">
+                     getInstance should not be called with ECB as the cipher mode, as it is insecure.
+                    </li>
+                   </ul>
+                  </div>
+                 </strong>
+                </h4>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="adbcommands">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           Until we perfect this, for manually testing, run the following command to see all the options and their meanings:
+           <kbd>
+            adb shell am
+           </kbd>
+           . Make sure to update qark frequently to get all the enhancements! You'll also find some good examples here:
+           <a href="http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb">
+            http://xgouchet.fr/android/index.php?article42/launch-intents-using-adb
+           </a>
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="adbcommands-issues-list">
+               <div class="badger-div badger-left badger-danger" data-badger="activity">
+                <kbd>
+                 adb shell am start -a "android.intent.action.MAIN" -n "com.pzizz.android/com.pzizz.android.VideoSplash" --es
+                </kbd>
+                <ul>
+                </ul>
+               </div>
+               <div class="badger-div badger-left badger-danger" data-badger="activity">
+                <kbd>
+                 adb shell am start -a "android.intent.action.MAIN" -n "com.pzizz.android/com.pzizz.android.VideoSplash" --es
+                </kbd>
+                <ul>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="parsingerrors">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           Until we perfect this, please review these files manually. Due to parsing errors, it is possible that an issue may not have been reported correctly.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div>
+          <div class="row">
+           <div>
+            <div class="container-fluid">
+             <div class="row-fluid">
+              <div id="issues-list">
+               <span id="parsingerror-issues-list">
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/biz/source_code/base64Coder/Base64Coder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterAPIMonitor.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/PlaceJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/GeoQuery.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/QueryResultJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/StatusJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/Annotation.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterBaseImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TweetJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/StatusUpdate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/IDsJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TwitterException.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/ProfileImage.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/Query.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/GeoLocation.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/TrendsJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/RelationshipJSONImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/json/DataObjectFactoryUtil.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/logging/Logger.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/HttpResponse.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/HttpClientFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/HttpRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/XAuthAuthorization.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/HTMLEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/internal/http/HttpClientImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/conf/PropertyConfiguration.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/conf/ConfigurationBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/management/APIStatistics.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/twitter4j/management/APIStatisticsOpenMBean.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatImageHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ButtonBarLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/Toolbar.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatTextHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ListViewCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ScrollingTabContainerView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActionMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatSpinner.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActivityChooserModel.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/SuggestionsAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/SwitchCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatRadioButton.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/SearchView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActionMenuView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ThemeUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActionBarContextView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/LinearLayoutCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ToolbarWidgetWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatBackgroundHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatCheckBox.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActivityChooserView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/AppCompatDrawableManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ListPopupWindow.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ActionBarOverlayLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/ContentFrameLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/widget/TintContextWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/StandaloneActionMode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/BaseMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/BaseMenuPresenter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuItemImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/ActionMenuItemView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuPopupHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuPopupHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/ListMenuItemView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/view/menu/MenuItemWrapperICS.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/graphics/drawable/DrawerArrowDrawable.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/AlertController.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplV7.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/ToolbarActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/ToolbarActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/ActionBarDrawerToggle.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/NotificationCompatImplBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/WindowDecorActionBar.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/AppCompatViewInflater.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/ActionBarDrawerToggleHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v7/app/AppCompatDelegateImplBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/graphics/drawable/AnimatedVectorDrawableCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/graphics/drawable/VectorDrawableCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/graphics/drawable/PathParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/util/TimeUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/util/LruCache.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/content/PermissionChecker.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/content/LocalBroadcastManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/content/ModernAsyncTask.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/content/FileProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/NestedScrollView.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/ViewDragHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/DrawerLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/SlidingPaneLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/AutoScrollHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/widget/CursorAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/print/PrintHelperKitkat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/os/CancellationSignal.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatLollipop.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/ViewPager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/GestureDetectorCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/PagerTitleStrip.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/PagerTitleStrip.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/view/LayoutInflaterCompatHC.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/hardware/fingerprint/FingerprintManagerCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/MediaMetadataCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/MediaBrowserServiceCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/MediaBrowserServiceCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/TransportMediatorJellybeanMR2.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/RatingCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/MediaBrowserCompatUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/TransportMediator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/IMediaBrowserServiceAdapterApi21.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/IMediaBrowserServiceAdapterApi21.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/MediaBrowserServiceCompatApi21.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/session/PlaybackStateCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/session/MediaControllerCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/media/session/MediaSessionCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/graphics/ColorUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/graphics/drawable/DrawableWrapperDonut.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/graphics/drawable/DrawableWrapperDonut.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/text/BidiFormatter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/ActionBarDrawerToggleJellybeanMR2.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/BackStackState.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/ShareCompatICS.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/FragmentStatePagerAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/BackStackRecord.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/FragmentTransitionCompat21.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatApi21.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatIceCreamSandwich.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatKitKat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatApi20.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/NotificationCompatJellybean.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/BundleUtil.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/ActionBarDrawerToggleHoneycomb.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/FragmentActivity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/android/support/v4/app/TaskStackBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/StringEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/ContentType.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/ContentType.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/mime/FormBodyPart.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/entity/mime/HttpMultipartMode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/params/SyncBasicHttpParams.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/params/AbstractHttpParams.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/params/HttpParamConfig.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/message/BasicHttpResponse.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/message/BasicHttpResponse.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/message/BasicLineParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/message/BasicHeaderValueParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/util/CharArrayBuffer.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/util/EntityUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/util/VersionInfo.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/util/ExceptionUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/entity/EntityBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/Rfc3492Idn.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/DateUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/URLEncodedUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/URLEncodedUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/URLEncodedUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/HttpClientUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/utils/URIUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/cache/CacheResponseStatus.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/cache/HttpCacheEntry.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/methods/RequestBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/methods/HttpRequestWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/protocol/RequestAddCookies.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/protocol/RequestAuthenticationBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/client/protocol/ResponseAuthCache.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/DefaultConnectionReuseStrategy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/EnglishReasonPhraseCatalog.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/execchain/ResponseEntityProxy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/DefaultRedirectHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/DefaultRequestDirector.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/EntityEnclosingRequestWrapper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/SystemDefaultCredentialsProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/DefaultRedirectStrategy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/HttpClientBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/InternalHttpClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/AbstractHttpClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/RequestProtocolCompliance.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/IOUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/CacheInvalidator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/BasicIdGenerator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/RequestProtocolError.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/CachingHttpClientBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/CachedResponseSuitabilityChecker.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/BasicHttpCacheStorage.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/DefaultFailureCache.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/CacheKeyGenerator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/CachingExec.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/SizeLimitedResponseReader.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/client/cache/AsynchronousValidationRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/auth/NTLMScheme.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/auth/DigestScheme.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/auth/HttpAuthenticator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/auth/AuthSchemeBase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/pool/BasicConnFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/io/AbstractSessionOutputBuffer.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/io/AbstractSessionInputBuffer.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/BrowserCompatSpecFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/BestMatchSpec.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/BestMatchSpec.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/BrowserCompatSpec.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/NetscapeDraftHeaderParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/cookie/NetscapeDraftSpec.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/AbstractPooledConnAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/AbstractPoolEntry.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/SystemDefaultRoutePlanner.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/ProxySelectorRoutePlanner.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/BasicHttpClientConnectionManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/PoolingClientConnectionManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/HttpClientConnectionOperator.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/ManagedHttpClientConnectionFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/impl/conn/tsccm/ThreadSafeClientConnManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/auth/AuthProtocolState.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/auth/AuthScope.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/auth/ChallengeState.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/pool/AbstractConnPool.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/protocol/UriPatternMatcher.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/protocol/HttpProcessorBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/protocol/SyncBasicHttpContext.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/protocol/ResponseContent.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/protocol/HttpService.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/routing/RouteInfo.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/scheme/PlainSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/ssl/SSLSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/ssl/SSLSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/ssl/SSLConnectionSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/conn/socket/PlainConnectionSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/cz/msebera/android/httpclient/extras/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/JsonToken.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/JsonNode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/JsonFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/JsonEncoding.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/util/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/util/d.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/util/g.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/b.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/w.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/k.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/l.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/o.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/impl/t.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/sym/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/sym/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/sym/i.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/sym/g.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/sym/h.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/io/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/io/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/codehaus/jackson/io/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/u.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/z.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/n.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/r.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/k.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/E.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/Y.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/B.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/Q.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/t.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/params/c.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/params/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/params/g.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/methods/d.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/auth/b.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/auth/l.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/cookie/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/cookie/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/cookie/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/httpclient/cookie/d.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/codec/binary/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/logging/LogFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/org/apache/commons/logging/impl/LogFactoryImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ServerRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/SystemObserver.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ServerRequestGetReferralCode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ServerRequestApplyReferralCode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ServerRequestValidateReferralCode.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/SharingHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/Branch.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/PrefHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ApkParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/ServerRequestInitSession.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/BranchLinkData.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/referral/Defines.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/branch/indexing/BranchUniversalObject.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/Fabric.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/Fabric.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/Onboarding.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/events/QueueFileEventStorage.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/events/EnabledEventsStrategy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/common/AdvertisingInfoServiceStrategy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/common/DeliveryMechanism.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/common/IdManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/common/CommonUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/network/UrlUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/network/HttpMethod.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/network/HttpRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/network/DefaultHttpRequestFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/DelegateProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/AsyncTask.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/Priority.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/PriorityThreadPoolExecutor.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/PriorityTask.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/PriorityFutureTask.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/concurrency/PriorityAsyncTask.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/settings/SettingsCacheBehavior.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/settings/DefaultCachedSettingsIo.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/io/fabric/sdk/android/services/settings/AbstractAppSpiCall.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/NewPzizzDialog.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/VideoSplash.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/util/ErrorLog.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/util/PzizzConstants.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/billing/ResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/billing/Consts.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/billing/PurchaseDatabase.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/billing/util/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/Settings/PzizzSettingsManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/Settings/PzizzSettingsManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/Settings/PzizzSettingsManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/Settings/PzizzSettingsManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/drawers/lhs_pane_stuff/LHS_Favorites_Fragment.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/backend/ModuleDefinition.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/backend/PzizzAlgorithm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/backend/player/QueuedMediaObject.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/backend/player/PzizzPlayer.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/view/ViewToggleButton.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/tutorial/WelcomeScreenActivity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/android/vending/expansion/zipfile/APEZProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/d.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/h.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/h.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/h.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/reader/b.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/reader/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bea/xml/stream/events/i.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/sbstrm/appirater/Appirater.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/util/HttpService.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/util/Base64Coder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/surveys/CardCarouselLayout.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/surveys/SurveyActivity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/InAppNotification.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/DecideMessages.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/AnalyticsMessages.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/SynchronizedReference.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/MixpanelAPI.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/PersistentIdentity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/MPDbAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/MPConfig.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/Survey.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/DecideChecker.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/mpmetrics/SystemInformation.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/viewcrawler/Pathfinder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/viewcrawler/ViewSnapshot.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/WebSocketImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/WebSocket.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/SSLSocketChannel2.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/util/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/client/WebSocketClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/drafts/Draft.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/drafts/Draft_10.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/mixpanel/android/java_websocket/framing/Framedata.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/TextHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/DataAsyncHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/AsyncHttpClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/SaxAsyncHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/JsonHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/BaseJsonHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/RequestParams.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/FileAsyncHttpResponseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/MyRedirectHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/JsonStreamerEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/AsyncHttpRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/loopj/android/http/MySSLSocketFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bugsense/trace/BugSense.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bugsense/trace/Utils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bugsense/trace/CryptoHttpClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/bugsense/trace/BugSenseHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/Protocol.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/HttpMethod.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/ClientConfiguration.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/util/c.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/util/json/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/util/json/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/sqs/AmazonSQSAsyncClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/sqs/model/QueueAttributeName.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/AmazonS3Client.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/StorageClass.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/S3Object.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/CannedAccessControlList.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/Permission.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/GroupGrantee.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/Region.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/s3/model/transform/RequestXmlFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/simpledb/AmazonSimpleDBAsyncClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/services/sns/AmazonSNSAsyncClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/javax/xml/stream/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/javax/xml/transform/m.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/javax/xml/transform/sax/SAXSource.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/SignatureVersion.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/SigningAlgorithm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/policy/internal/a.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/policy/actions/SQSActions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/policy/actions/S3Actions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/auth/policy/actions/SNSActions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/http/HttpClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/http/HttpRequest.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/amazonaws/http/HttpMethodName.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/android/FlurryAgent.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/android/FlurrySyndicationEventName.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/android/FlurryEventRecordStatus.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/android/tumblr/Post.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/it.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/hl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/je.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ma.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/kp.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/iu.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ls.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ir.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/im.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/hn.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ig.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/kv.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/iq.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/il.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/lx.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/io.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jr.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ii.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ho.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/hm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/kz.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/kt.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ix.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/lo.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/kg.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jj.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jb.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ij.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jv.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jf.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/if.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jt.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/in.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ih.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/iw.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/lh.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/lg.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ib.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jn.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/is.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/iz.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/ks.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/TreeTypeAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/FieldNamingPolicy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/JsonPrimitive.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/FieldAttributes.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/LongSerializationPolicy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/GsonBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/Primitives.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/Excluder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/Excluder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/LinkedTreeMap.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/CollectionTypeAdapterFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/ReflectiveTypeAdapterFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/TypeAdapters.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/MapTypeAdapterFactory.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/ArrayTypeAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/internal/bind/ObjectTypeAdapter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/stream/JsonToken.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/stream/JsonWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/stream/JsonWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/stream/JsonWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/stream/JsonReader.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/gson/reflect/TypeToken.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/licensing/util/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/Helpers.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/Helpers.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/impl/HttpDateTime.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/impl/DownloaderService.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/impl/DownloadThread.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/impl/DownloadsDB.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/bm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cr.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/f.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cn.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/u.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ds.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/bv.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/v.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cd.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cs.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dx.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dp.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dn.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ea.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/az.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/e.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dk.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ad.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cc.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dj.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/m.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ca.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cp.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/bt.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/bt.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/av.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/k.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/at.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ce.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ce.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ce.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dm.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/af.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cb.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/g.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cq.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/an.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/bl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/ct.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/co.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/cu.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/t.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/do.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dw.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/internal/dz.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/GoogleMap.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/ICameraUpdateFactoryDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/IMapViewDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/IMapFragmentDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/IProjectionDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/ILocationSourceDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/IGoogleMapDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/internal/IUiSettingsDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/TileOverlay.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/GroundOverlayOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/TileOverlayOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/TileOverlayOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/MarkerOptions.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/LatLngBounds.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/maps/model/internal/IPolylineDelegate.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/games/PlayerEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/games/GameEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/games/multiplayer/ParticipantEntity.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/games/leaderboard/SubmitScoreResult.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/common/GooglePlayServicesUtil.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/common/images/ImageManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/plus/PlusShare.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/gms/gcm/GoogleCloudMessaging.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/ServiceManagerImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/DataLayerPersistentStoreImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/TrackerProvider.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/TagManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/Runtime.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/HttpUrlConnectionNetworkClient.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/Container.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/InstallReferrerService.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/EncodeMacro.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/ResourceLoaderSchedulerImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/PreviewManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/JoinerMacro.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/ExperimentMacroHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/DataLayer.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/AdwordsClickReferrerMacro.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/Base64.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/HashMacro.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/InstallReferrerMacro.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/CtfeDebugInformationHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/SimpleCache.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/ResourceStorageImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/LoadCallback.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/Types.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/Logger.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/proto/Resource.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/protobuf/nano/Extension.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/StandardExceptionParser.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/GAUsage.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/PersistentAnalyticsStore.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/GAServiceManager.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/SimpleNetworkDispatcher.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/EasyTracker.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/ParameterLoaderImpl.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/ExceptionReporter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/ExceptionReporter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/GAThread.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/NoopDispatcher.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/GAServiceProxy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/Logger.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/MapBuilder.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/midtier/proto/containertag/TypeSystem.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/containertag/proto/Debug.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/containertag/proto/Serving.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/containertag/common/Key.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/containertag/common/FunctionType.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/wutka/dtd/u.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/wutka/dtd/z.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/wutka/dtd/z.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/Crashlytics.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/CrashlyticsCore.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/CrashlyticsUncaughtExceptionHandler.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/SessionProtobufHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/SessionProtobufHelper.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/ReportUploader.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/ExceptionUtils.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/MetaDataStore.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/NativeCrashWriter.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/core/WireFormat.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/answers/LevelEndEvent.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/answers/SessionEvent.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/answers/EnabledSessionAnalyticsManagerStrategy.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/crashlytics/android/answers/Answers.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/android/vending/expansion/downloader/SystemFacade.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/tagmanager/NetworkReceiver.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/google/analytics/tracking/android/GANetworkReceiver.java
+                </strong>
+                <strong class="debug-level">
+                 /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/pzizz/android/ModulePickerActivity.java
+                </strong>
+               </span>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="osbugs">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="well">
+          <p>
+           This section is related to any operating system related issues. This information was
+                                    identified from the application's manifest and we encourage you to understand the type
+                                    of vulnerabilities that live ourside your application's sandbox but may affect your
+                                     application in some way or the other.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-8 col-sm-8">
+         <div class="well">
+          <div class="row">
+           <div class="col-lg-8">
+            <h2>
+             OS Version specific bugs
+            </h2>
+            <p class="text-justify">
+            </p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-4 col-sm-4">
+         <div class="well">
+          <p>
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="plugin">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <p>
+           Plugin content output if any
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12" id="plugin-issues-list">
+            <div class="badger-div badger-left badger-success" data-badger="Info">
+             <br/>
+             <strong>
+              File:
+              <code>
+               /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jf.java
+              </code>
+             </strong>
+             <br/>
+             <h4>
+              <strong class="details">
+               <div>
+                <ul>
+                 <li class="row-even">
+                  Access of phone number or IMEI, is detected in file: /home/jownzyyy/Schreibtisch/pzizz/pzizz/classes_dex2jar/com/flurry/sdk/jf.java.
+Avoid storing or transmitting this data.
+                 </li>
+                </ul>
+               </div>
+              </strong>
+             </h4>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="references">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <p>
+           This is a list of resources you may refer to understand more about android security
+                                     in general and also how specific programming mistakes or insecure-by-default settings may manifest themselves into
+                                     vulnerabilities. We are currently hand picking credible resources to add to the list. Please check for updates to get a revised list of references.
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12">
+            <h2>
+             List of resources
+            </h2>
+            <br/>
+            <br/>
+            <ul>
+             <li>
+              <p class="">
+               For general Android security information:
+               <a href="http://developer.android.com/training/articles/security-tips.html">
+                http://developer.android.com/training/articles/security-tips.html
+               </a>
+              </p>
+             </li>
+             <li>
+              For information on proper TLS implementation:
+              <a href="http://developer.android.com/training/articles/security-ssl.html">
+               http://developer.android.com/training/articles/security-ssl.html
+              </a>
+             </li>
+             <li>
+              A great guide to Android security, from the Japanese Smartphone Security Association:
+              <a href="https://www.jssec.org/report/android_securecoding_en_20140801.html">
+               https://www.jssec.org/report/android_securecoding_en_20140801.html
+              </a>
+             </li>
+             <p>
+             </p>
+            </ul>
+            <br/>
+            <br/>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="tab-pane" id="about">
+       <div class="row">
+        <div class="col-md-12">
+         <div class="">
+          <h2>
+           <strong>
+            QUICK ANDROID REVIEW KIT
+           </strong>
+          </h2>
+          <strong>
+           Version 0.9
+          </strong>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+        <div class="col-lg-12 col-sm-12">
+         <div class="">
+          <div class="row">
+           <div class="col-lg-12">
+            <br/>
+            <br/>
+            <br/>
+            <h4>
+             <strong>
+              Source:
+             </strong>
+            </h4>
+            <p class="">
+             Github:
+             <a href="https://www.github.com/linkedin/qark">
+              https://www.github.com/linkedin/qark
+             </a>
+             <br/>
+            </p>
+            <h4>
+             <strong>
+              Authors:
+             </strong>
+            </h4>
+            <strong>
+             Anthony Trummer:
+            </strong>
+            <a href="https://www.linkedin.com/in/tonytrummer">
+             https://www.linkedin.com/in/tonytrummer
+            </a>
+            <br/>
+            <strong>
+             Tushar Dalvi:
+            </strong>
+            <a href="https://www.linkedin.com/in/tdalvi">
+             https://www.linkedin.com/in/tdalvi
+            </a>
+            <p>
+            </p>
+            <br/>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-xs-12">
+        <div class="well">
+         <p>
+          QARK Version 0.9
+         </p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <!--/row-offcanvas -->
+  </div>
+  <!-- /.modal -->
+  <!-- script references -->
+  <script src="js/jquery-2.1.4.min.js">
+  </script>
+  <script src="js/bootstrap.min.js">
+  </script>
+  <script src="js/scripts.js">
+  </script>
+  <link href="js/highlight/styles/magula.css" rel="stylesheet"/>
+  <script src="js/highlight/highlight.pack.js">
+  </script>
+  <script>
+   hljs.initHighlightingOnLoad();
+  </script>
+ </body>
+</html>

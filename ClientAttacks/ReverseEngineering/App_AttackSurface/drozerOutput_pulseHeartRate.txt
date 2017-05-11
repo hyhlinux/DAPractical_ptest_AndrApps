@@ -1,0 +1,63 @@
+Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+
+run app.package.info -a com.andxor.pulseheartrate
+dz> Package: com.andxor.pulseheartrate
+  Application Label: Pulse Heart Rate
+  Process Name: com.andxor.pulseheartrate
+  Version: 1.0.0
+  Data Directory: /data/user/0/com.andxor.pulseheartrate
+  APK Path: /data/app/com.andxor.pulseheartrate-1/base.apk
+  UID: 10323
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.CAMERA
+  - android.permission.WAKE_LOCK
+  - android.permission.INTERNET
+  - android.permission.ACCESS_NETWORK_STATE
+  Defines Permissions:
+  - None
+
+run app.package.attacksurface com.andxor.pulseheartrate
+dz> Attack Surface:
+  1 activities exported
+  0 broadcast receivers exported
+  0 content providers exported
+  0 services exported
+  
+run app.activity.info -a com.andxor.pulseheartrate
+dz> Package: com.andxor.pulseheartrate
+  com.andxor.pulseheartrate.activity.MainActivity
+    Permission: null
+
+run app.broadcast.info -a com.andxor.pulseheartrate
+dz> Package: com.andxor.pulseheartrate
+  No matching receivers.
+
+run app.service.info -a com.andxor.pulseheartrate
+dz> Package: com.andxor.pulseheartrate
+  No exported services.
+
+run app.provider.info -a com.andxor.pulseheartrate
+dz> Package: com.andxor.pulseheartrate
+  No matching providers.
+
+dz> 

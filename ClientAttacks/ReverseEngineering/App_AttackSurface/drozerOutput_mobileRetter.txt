@@ -1,0 +1,94 @@
+Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+
+run app.package.info -a de.pappert.pp.lebensretter 
+dz> Package: de.pappert.pp.lebensretter
+  Application Label: Mobile Retter
+  Process Name: de.pappert.pp.lebensretter
+  Version: 2.6.3
+  Data Directory: /data/user/0/de.pappert.pp.lebensretter
+  APK Path: /data/app/de.pappert.pp.lebensretter-1/base.apk
+  UID: 10321
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.INTERNET
+  - android.permission.ACCESS_FINE_LOCATION
+  - com.google.android.c2dm.permission.RECEIVE
+  - android.permission.GET_TASKS
+  - android.permission.RECEIVE_BOOT_COMPLETED
+  - android.permission.VIBRATE
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.CHANGE_WIFI_STATE
+  - de.pappert.pp.lebensretter.android.locationapi.maps.permission.MAPS_RECEIVE
+  - android.permission.ACCESS_NETWORK_STATE
+  - com.google.android.providers.gsf.permission.READ_GSERVICES
+  - android.permission.ACCESS_COARSE_LOCATION
+  - android.permission.CALL_PHONE
+  - de.pappert.pp.lebensretter.permission.C2D_MESSAGE
+  - android.permission.WAKE_LOCK
+  Defines Permissions:
+  - de.pappert.pp.lebensretter.android.locationapi.maps.permission.MAPS_RECEIVE
+  - de.pappert.pp.lebensretter.permission.C2D_MESSAGE
+
+run app.package.attacksurface de.pappert.pp.lebensretter
+dz> Attack Surface:
+  3 activities exported
+  4 broadcast receivers exported
+  0 content providers exported
+  4 services exported
+  
+run app.activity.info -a de.pappert.pp.lebensretter
+dz> Package: de.pappert.pp.lebensretter
+  de.pappert.pp.lebensretter.Views.StartTabs.StartTabbarActivity
+    Permission: null
+  com.google.android.gms.appinvite.PreviewActivity
+    Permission: null
+  com.google.android.gms.tagmanager.TagManagerPreviewActivity
+    Permission: null
+
+run app.broadcast.info -a de.pappert.pp.lebensretter
+dz> Package: de.pappert.pp.lebensretter
+  de.pappert.pp.lebensretter.Basic.BackgroundService.BootUpReceiver
+    Permission: android.permission.RECEIVE_BOOT_COMPLETED
+  com.google.android.gms.gcm.GcmReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+  com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+    Permission: android.permission.INSTALL_PACKAGES
+  com.google.firebase.iid.FirebaseInstanceIdReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+
+run app.service.info -a de.pappert.pp.lebensretter
+dz> Package: de.pappert.pp.lebensretter
+  de.pappert.pp.lebensretter.Basic.BackgroundService.BackgroundService
+    Permission: null
+  com.google.android.gms.auth.api.signin.RevocationBoundService
+    Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+  com.google.firebase.messaging.FirebaseMessagingService
+    Permission: null
+  com.google.firebase.iid.FirebaseInstanceIdService
+    Permission: null
+
+run app.provider.info -a de.pappert.pp.lebensretter
+dz> Package: de.pappert.pp.lebensretter
+  No matching providers.
+
+dz> 
+

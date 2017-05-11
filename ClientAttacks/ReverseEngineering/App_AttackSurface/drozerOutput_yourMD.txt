@@ -1,0 +1,116 @@
+﻿Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+  
+run app.package.info -a md.your
+dz> Package: md.your
+  Application Label: Your.MD Beta
+  Process Name: md.your
+  Version: 2.8.2
+  Data Directory: /data/user/0/md.your
+  APK Path: /data/app/md.your-1/base.apk
+  UID: 10322
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.INTERNET
+  - android.permission.READ_EXTERNAL_STORAGE
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.GET_ACCOUNTS
+  - android.permission.USE_CREDENTIALS
+  - android.permission.READ_PROFILE
+  - android.permission.READ_CONTACTS
+  - android.permission.READ_PHONE_STATE
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.RECEIVE_SMS
+  - com.google.android.c2dm.permission.RECEIVE
+  - android.permission.ACCESS_COARSE_LOCATION
+  - android.permission.WAKE_LOCK
+  - android.permission.RECEIVE_BOOT_COMPLETED
+  - md.your.permission.C2D_MESSAGE
+  Defines Permissions:
+  - md.your.permission.C2D_MESSAGE
+
+run app.package.attacksurface md.your
+dz> Attack Surface:
+  5 activities exported
+  8 broadcast receivers exported
+  0 content providers exported
+  3 services exported
+  
+run app.activity.info -a md.your
+dz> Package: md.your
+  md.your.ui.activity.MainActivity
+    Permission: null
+  md.your.ui.activity.ConditionActivity
+    Permission: null
+  md.your.URLActivity
+    Permission: null
+  com.hokolinks.activity.HokoActivity
+    Permission: null
+  com.hokolinks.activity.HokoAppLinksActivity
+    Permission: null
+
+run app.broadcast.info -a md.your
+dz> Package: md.your
+  com.appsflyer.MultipleInstallBroadcastReceiver
+    Permission: null
+  com.hokolinks.deeplinking.DeferredDeeplinkingBroadcastReceiver
+    Permission: null
+  md.your.service.GcmBroadcastReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+  md.your.GenericPluginBroadcastReceiver
+    Permission: null
+  com.google.android.gms.analytics.AnalyticsReceiver
+    Permission: null
+  com.google.android.gms.analytics.CampaignTrackingReceiver
+    Permission: android.permission.INSTALL_PACKAGES
+  com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+    Permission: android.permission.INSTALL_PACKAGES
+  com.google.firebase.iid.FirebaseInstanceIdReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+
+run app.service.info -a md.your
+dz> dz> Package: md.your
+  md.your.service.AppIndexingService
+    Permission: com.google.android.gms.permission.APPINDEXING
+  com.google.android.gms.auth.api.signin.RevocationBoundService
+    Permission: com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION
+  com.google.firebase.iid.FirebaseInstanceIdService
+    Permission: null
+
+run app.provider.info -a md.your
+
+dz> dz> Package: md.your
+  No matching providers.
+
+
+COmmands:
+
+run app.package.list
+run app.package.info -a md.your
+run app.package.attacksurface md.your
+run app.activity.info -a md.your
+run app.broadcast.info -a md.your
+run app.service.info -a md.your
+run app.provider.info -a md.your
+
+
+
+

@@ -1,0 +1,71 @@
+Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+
+run app.package.info -a com.pzizz.android 
+dz> Package: com.pzizz.android
+  Application Label: pzizz
+  Process Name: com.pzizz.android
+  Version: 3.9.5
+  Data Directory: /data/user/0/com.pzizz.android
+  APK Path: /data/app/com.pzizz.android-1/base.apk
+  UID: 10005
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.SYSTEM_ALERT_WINDOW
+  - com.android.vending.CHECK_LICENSE
+  - android.permission.INTERNET
+  - android.permission.WRITE_EXTERNAL_STORAGE
+  - android.permission.WAKE_LOCK
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.READ_PHONE_STATE
+  - android.permission.READ_EXTERNAL_STORAGE
+  Defines Permissions:
+  - None
+
+run app.package.attacksurface com.pzizz.android   
+dz> Attack Surface:
+  2 activities exported
+  0 broadcast receivers exported
+  0 content providers exported
+  0 services exported
+  
+run app.activity.info -a com.pzizz.android
+dz> Package: com.pzizz.android
+  com.pzizz.android.ModulePickerActivity
+    Permission: null
+  com.pzizz.android.VideoSplash
+    Permission: null
+
+run app.broadcast.info -a com.pzizz.android
+dz> Package: com.pzizz.android
+  No matching receivers.
+
+run app.service.info -a com.pzizz.android  
+dz> Package: com.pzizz.android
+  No exported services.
+
+run app.provider.info -a com.pzizz.android
+
+dz> Package: com.pzizz.android
+  No matching providers.
+
+dz> 

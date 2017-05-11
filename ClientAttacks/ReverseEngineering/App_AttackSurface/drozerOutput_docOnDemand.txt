@@ -1,0 +1,84 @@
+Selecting c11bd4ed3d952c13 (Sony D6603 6.0.1)
+
+            ..                    ..:.
+           ..o..                  .r..
+            ..a..  . ....... .  ..nd
+              ro..idsnemesisand..pr
+              .otectorandroidsneme.
+           .,sisandprotectorandroids+.
+         ..nemesisandprotectorandroidsn:.
+        .emesisandprotectorandroidsnemes..
+      ..isandp,..,rotectorandro,..,idsnem.
+      .isisandp..rotectorandroid..snemisis.
+      ,andprotectorandroidsnemisisandprotec.
+     .torandroidsnemesisandprotectorandroid.
+     .snemisisandprotectorandroidsnemesisan:
+     .dprotectorandroidsnemesisandprotector.
+
+drozer Console (v2.3.4 debug mode)
+
+run app.package.info -a com.doctorondemand.android.patient 
+dz> Package: com.doctorondemand.android.patient
+  Application Label: Doctor On Demand
+  Process Name: com.doctorondemand.android.patient
+  Version: 3.13.1
+  Data Directory: /data/user/0/com.doctorondemand.android.patient
+  APK Path: /data/app/com.doctorondemand.android.patient-2/base.apk
+  UID: 10320
+  GID: [3003]
+  Shared Libraries: null
+  Shared User ID: null
+  Uses Permissions:
+  - android.permission.INTERNET
+  - android.permission.GET_ACCOUNTS
+  - android.permission.READ_PHONE_STATE
+  - android.permission.READ_PROFILE
+  - android.permission.ACCESS_NETWORK_STATE
+  - android.permission.ACCESS_FINE_LOCATION
+  - android.permission.RECORD_AUDIO
+  - android.permission.MODIFY_AUDIO_SETTINGS
+  - android.permission.WRITE_EXTERNAL_STORAGE
+  - android.permission.CAMERA
+  - android.permission.WAKE_LOCK
+  - com.google.android.c2dm.permission.RECEIVE
+  - com.doctorondemand.android.patient.permission.RECEIVE_ADM_MESSAGE
+  - com.amazon.device.messaging.permission.RECEIVE
+  - android.permission.VIBRATE
+  - android.permission.ACCESS_WIFI_STATE
+  - android.permission.READ_EXTERNAL_STORAGE
+  Defines Permissions:
+  - com.doctorondemand.android.patient.permission.RECEIVE_ADM_MESSAGE
+  - com.doctorondemand.android.patient.permission.C2D_MESSAGE
+
+  
+run app.package.attacksurface com.doctorondemand.android.patient 
+dz> Attack Surface:
+  2 activities exported
+  3 broadcast receivers exported
+  0 content providers exported
+  0 services exported
+  
+  
+run app.activity.info -a com.doctorondemand.android.patient
+dz> Package: com.doctorondemand.android.patient
+  com.doctorondemand.android.patient.base.BlankActivity
+    Permission: null
+  com.doctorondemand.android.patient.base.DeeplinkActivity
+    Permission: null
+
+run app.broadcast.info -a com.doctorondemand.android.patient
+dz> Package: com.doctorondemand.android.patient
+  com.appsflyer.MultipleInstallBroadcastReceiver
+    Permission: null
+  com.google.ads.conversiontracking.InstallReceiver
+    Permission: null
+  com.doctorondemand.android.patient.notification.GcmBroadcastReceiver
+    Permission: com.google.android.c2dm.permission.SEND
+
+run app.service.info -a com.doctorondemand.android.patient
+dz> Package: com.doctorondemand.android.patient
+  No exported services.
+
+run app.provider.info -a com.doctorondemand.android.patient
+dz> dz> Package: com.doctorondemand.android.patient
+  No matching providers.
